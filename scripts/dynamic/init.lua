@@ -5161,19 +5161,19 @@ ensureSpawn = {
 	['alqutayfah-suport-blue-2'] = zones.alqutayfah, -- done
 	['maqne-suport-blue-3'] = zones.maqne, -- done
 	['tripoli-suport-blue-4'] = zones.tripoli, --done
-	['foxtrot-suport-blue-5'] = zones.foxtrot,
-	['golf-suport-blue-6'] = zones.golf,
-	['mine-suport-blue-7'] = zones.mine,
-	['racetrack-suport-blue-8'] = zones.racetrack,
-	['india-suport-blue-9'] = zones.india,
-	['homs-suport-blue-10'] = zones.homs,
-	['juliett-suport-blue-11'] = zones.juliett,
-	['arrastan-suport-blue-12'] = zones.arrastan,
+	['foxtrot-suport-blue-5'] = zones.foxtrot, -- done
+	['golf-suport-blue-6'] = zones.golf, -- done
+	['mine-suport-blue-7'] = zones.mine, -- done
+	['racetrack-suport-blue-8'] = zones.racetrack, -- done
+	['india-suport-blue-9'] = zones.india, -- done
+	['homs-suport-blue-10'] = zones.homs, -- done
+	['juliett-suport-blue-11'] = zones.juliett, -- done
+	['arrastan-suport-blue-12'] = zones.arrastan, -- done
 	['tartus-suport-blue-13'] = zones.tartus, -- done
-	['kilo-suport-blue-14'] = zones.kilo,
-	['muhradah-suport-blue-15'] = zones.muhradah,
-	['baniyas-suport-blue-16'] = zones.baniyas,
-	['elkorum-suport-blue-17'] = zones.elkorum,
+	['kilo-suport-blue-14'] = zones.kilo, -- done
+	['muhradah-suport-blue-15'] = zones.muhradah, -- done
+	['baniyas-suport-blue-16'] = zones.baniyas, -- done
+	['elkorum-suport-blue-17'] = zones.elkorum, -- done
 
 	
 }
