@@ -11,34 +11,30 @@ SET me=%~n0
 SET parent=%~dp0
 :: log file to output build results
 SET log=%parent%logs\%me%.log
-:: temporary folder for dynamic source
-SET destination_path=%parent%static\
-ECHO Static file temporary output path:    %destination_path%
 
-:: path to dynamic files to be concatenated
-SET source_path=%parent%dynamic\
-ECHO Dynamic file source path:   %source_path%
-SET source_path_core=%parent%dynamic\core\
-ECHO Core file source path:   %source_path_core%
-
-ECHO.
+:: input path
+SET input_path=%parent%dynamic\
+ECHO Input path:            %input_path%
+:: input file name
+SET input_file_name=static_files.txt
+ECHO Input file name:      %input_file_name%
+:: output path
+SET output_path=%parent%static\
+ECHO Output path:           %output_path%
+ECHO ----------------------------
 
 :: Initialise build file & log
 ECHO STATIC FILE COPY STARTED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% > %log%
-ECHO. >> %log%
-
-ECHO.
-
+ECHO: >> %log%
 :: Copy dynamic files
-copy %source_path%mist_4_5_107_custom.lua %destination_path%mist_4_5_107_custom.lua
-copy %source_path%pretense_compiled.lua %destination_path%pretense_compiled.lua
-copy %source_path%init.lua %destination_path%init.lua
-copy %source_path%playerlogistics.lua %destination_path%playerlogistics.lua
-
-ECHO.
+for /F %%f in (%input_path%%input_file_name%) do (
+    ECHO Adding file: %input_path%%%f >> %log%
+    COPY %input_path%%%f  >> %output_path%%%f
+)
+ECHO ----------------------------
 
 :: Close log
-ECHO. >> %log%
+ECHO: >> %log%
 ECHO STATIC FILE COPY FINISHED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% >> %log%
 ECHO Copy complete.
 
