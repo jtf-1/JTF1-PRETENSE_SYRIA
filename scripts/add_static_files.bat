@@ -1,5 +1,5 @@
 ::
-:: Copy Mission Files from dynmic to static
+:: Copy Files from dynamic to static folders
 ::
 
 ECHO OFF
