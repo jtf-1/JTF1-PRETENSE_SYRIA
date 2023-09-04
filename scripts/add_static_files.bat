@@ -29,7 +29,7 @@ ECHO: >> %log%
 :: Copy dynamic files
 for /F %%f in (%input_path%%input_file_name%) do (
     ECHO Adding file: %input_path%%%f >> %log%
-    COPY %input_path%%%f  >> %output_path%%%f
+    COPY %input_path%%%f %output_path%%%f
 )
 ECHO ----------------------------
 
