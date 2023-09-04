@@ -1,7 +1,6 @@
 Welcome to the JTF-1 Pretense Syria map!
 
-Original engine authored by Dzsekeb
-User manual: github.com/Dzsek/pretense
+Original engine authored by Dzsekeb - User manual: github.com/Dzsek/pretense
 
 Please make yourself aware of the following information:
 
