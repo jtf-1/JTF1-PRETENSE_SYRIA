@@ -18,30 +18,29 @@ end
 -- table of CVNs
 CVNCONTROL.cvn = {
 	{
-		name = "CVN72",
-		group = "JTF-1_CVN72",
-		unit = "JTF-1_CVN72",
-		menutext = "CVN-72 Lincoln",
-		deckoffset = -13,
-        uturn = true,
-		recoveryspeed = 32,
-		tacan = 72,
-		tacanid = "ABE",
-		icls = 2,
-		iclsid = "ABE",
-		radio = 274.075,
-		radiomodulation = radio.modulation.AM,
-		cruise = 15,
-		tanker = true,
-		tankertemplate = nil,
-		tankercallsign = CALLSIGN.Tanker.Texaco,
-		tankercallsignnumber = 6,
-		tankertacan = 38,
-		tankertacanid = "TEX",
-		tankerradio = 317.775,
+		name = "CVN72", -- identifier for this CVN
+		group = "JTF-1_CVN72", -- name of the GROUP in the ME
+		unit = "JTF-1_CVN72", -- name of the carrier unit in the GROUP
+		menutext = "CVN-72 Lincoln",-- text used for the carrier's control menu
+		deckoffset = -13, -- deck offset from boat heading
+        uturn = true, -- whether boat should return to the position it was in prior to the recover/launch request
+		recoveryspeed = 32, -- wind speed over the deck dunring recovery
+		tacan = 72, -- boat TACAN channel
+		tacanid = "ABE", -- TACAN morse ID
+		icls = 2,-- ICLS channel
+		iclsid = "ABE", -- ICLS morse ID
+		radio = 274.075, -- AI ATC freq
+		radiomodulation = radio.modulation.AM, -- AI ATC freq modulation [radio.modulation.AM/FM]
+		cruise = 15, -- speed at which boat should steam when not on launch/recovery
+		tanker = true, -- if a Hawk tanker should be spawned
+		tankertemplate = nil, -- name of GROUP template to be used. If nil, use the built-in template (default nil)
+		tankercallsign = CALLSIGN.Tanker.Texaco, -- Hawk tanker callsign [CALLSIGN.Tanker.Texaco/Shell/Arco]
+		tankercallsignnumber = 6, -- hawk tanker callsign number
+		tankertacan = 38, -- hawk tanker TACAN channel
+		tankertacanid = "TEX", -- hawk tanker TACAN morse ID
+		tankerradio = 317.775, -- hawk tanker radio freq
 	},
 }
-
 
 -- start the mission timer
 if CVNCONTROL.Start then
