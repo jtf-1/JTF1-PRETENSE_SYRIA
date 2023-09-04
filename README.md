@@ -56,7 +56,7 @@ Launch and Recovery windows can be requested from the F10|Other|JTF-1|CVN Contro
 - 60 minutes
 - 90 mninutes
 
-The current window can also be cancelled from the menu. After a window has been cancelled the carrier will retun to the point at which the wind was requested and continue holding station.
+The current window can also be cancelled from the menu. After a window has been cancelled the carrier will retun to the point at which the window was requested and continue holding station.
 
 DYNAMIC DECK TEMPLATES
 ======================
