@@ -4064,6 +4064,8 @@ do
 	end
 
 	function ZoneCommand:fullBuild(useCost)
+		if self.side ~= 1 and self.side ~= 2 then return end
+
 		for i,v in ipairs(self.upgrades[self.side]) do
 			if useCost then
 				local cost = v.cost * useCost
@@ -6300,7 +6302,7 @@ do
                     local xp = self.context.tempStats[player][key]
                     if xp then
                         local isFree = event.initiator:getGroup():getName():find("(FREE)")
-                        trigger.action.outTextForUnit(un:getID(), 'Ejection. 30\% XP claimed', 5)
+                        trigger.action.outTextForUnit(un:getID(), 'Ejection. 30 XP claimed', 5)
                         self.context:addStat(player, math.floor(xp*0.3), PlayerTracker.statTypes.xp)
                         trigger.action.outTextForUnit(un:getID(), '[XP] '..self.context.stats[player][key]..' (+'..math.floor(xp*0.3)..')', 5)
                     end
