@@ -9,9 +9,10 @@ core\missiontimer.lua
 missiontimer_data.lua
 core\supportaircraft.lua
 supportaircraft_data.lua
-cvncontrol.lua
+core\cvncontrol.lua
 cvncontrol_data.lua
 core\dynamic_deck.lua
 core\dynamic_deck_templates.lua
 dynamic_deck_data.lua
+core\Hercules_Cargo.lua
 core\mission_end.lua
