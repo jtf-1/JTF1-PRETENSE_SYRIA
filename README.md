@@ -34,7 +34,6 @@ CVN72 Hawk;
 NAVAL OPERATIONS
 ================
 
-
 CVN-72 Abraham Lincoln:
 - BRC 180
 - TACAN 72X 
