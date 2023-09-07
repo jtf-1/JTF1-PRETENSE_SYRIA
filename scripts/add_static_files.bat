@@ -21,7 +21,8 @@ ECHO Input file name:      %input_file_name%
 :: output path
 SET output_path=%parent%static\
 ECHO Output path:           %output_path%
-ECHO ----------------------------
+ECHO --------------------------------------------------------
+ECHO:
 
 :: Initialise build file & log
 ECHO STATIC FILE COPY STARTED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% > %log%
@@ -29,9 +30,11 @@ ECHO: >> %log%
 :: Copy dynamic files
 for /F %%f in (%input_path%%input_file_name%) do (
     ECHO Adding file: %input_path%%%f >> %log%
+    ECHO Adding file: %input_path%%%f
     COPY %input_path%%%f %output_path%%%f
 )
-ECHO ----------------------------
+ECHO:
+ECHO --------------------------------------------------------
 
 :: Close log
 ECHO: >> %log%
