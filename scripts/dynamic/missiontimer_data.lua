@@ -16,7 +16,7 @@ if not MISSIONTIMER then
 end
 
 -- table of values for timer shedule in this miz
-MISSIONTIMER.durationHrs = 8 -- Mission run time in HOURS
+MISSIONTIMER.durationHrs = 12 -- Mission run time in HOURS
 MISSIONTIMER.msgSchedule = {60, 30, 10, 5} -- Schedule for mission restart warning messages prior to the mission restart. Time in minutes.
 MISSIONTIMER.restartDelay =  4 -- time in minutes to delay restart if active clients are present.
 MISSIONTIMER.useSRS = true -- set to false to disable use of SRS for this module in this miz
