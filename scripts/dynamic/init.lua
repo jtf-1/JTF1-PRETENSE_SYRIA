@@ -1284,6 +1284,7 @@ zones.acre:defineUpgrades({
 
 zones.india = ZoneCommand:new("India")
 zones.india.initialState = { side = 1 }
+zones.india.isHeloSpawn = true
 zones.india.maxResource = 20000
 zones.india:defineUpgrades({
     [1] = {
@@ -1895,6 +1896,7 @@ zones.beirut:defineUpgrades({
 
 zones.tartus = ZoneCommand:new("Tartus")
 zones.tartus.initialState = { side = 1 }
+zones.tartus.isHeloSpawn = true
 zones.tartus.maxResource = 20000
 zones.tartus:defineUpgrades({
     [1] = {
@@ -2019,6 +2021,7 @@ zones.rayak:defineUpgrades({
 
 zones.tripoli = ZoneCommand:new("Tripoli")
 zones.tripoli.initialState = { side = 1 }
+zones.tripoli.isHeloSpawn = true
 zones.tripoli.maxResource = 20000
 zones.tripoli:defineUpgrades({
     [1] = {
@@ -2290,6 +2293,7 @@ zones.tiyas:defineUpgrades({
 
 zones.baniyas = ZoneCommand:new("Baniyas")
 zones.baniyas.initialState = { side = 1 }
+zones.baniyas.isHeloSpawn = true
 zones.baniyas.maxResource = 20000
 zones.baniyas:defineUpgrades({
     [1] = {
@@ -2541,6 +2545,7 @@ zones.alassad:defineUpgrades({
 
 zones.golf = ZoneCommand:new("Golf")
 zones.golf.initialState = { side = 1 }
+zones.golf.isHeloSpawn = true
 zones.golf.maxResource = 20000
 zones.golf:defineUpgrades({
     [1] = {
@@ -3028,6 +3033,7 @@ zones.jabah:defineUpgrades({
 
 zones.busra = ZoneCommand:new("Busra")
 zones.busra.initialState = { side = 1 }
+zones.busra.isHeloSpawn = true
 zones.busra.maxResource = 20000
 zones.busra:defineUpgrades({
     [1] = {
@@ -3304,6 +3310,7 @@ zones.tiberias:defineUpgrades({
 
 zones.mine = ZoneCommand:new("Mine")
 zones.mine.initialState = { side = 1 }
+zones.mine.isHeloSpawn = true
 zones.mine.maxResource = 20000
 zones.mine:defineUpgrades({
     [1] = {
@@ -3375,6 +3382,7 @@ zones.mine:defineUpgrades({
 -----------------[[ MissionSpecific/PretenseSyria/ZoneDefinitions/AlQutayfah.lua ]]-----------------
 
 zones.alqutayfah = ZoneCommand:new("Al Qutayfah")
+zones.alqutayfah.isHeloSpawn = true
 zones.alqutayfah.initialState = { side = 1 }
 zones.alqutayfah.maxResource = 20000
 zones.alqutayfah:defineUpgrades({
@@ -3757,6 +3765,7 @@ zones.marj:defineUpgrades({
 
 zones.elkorum = ZoneCommand:new("Elkorum")
 zones.elkorum.initialState = { side = 1 }
+zones.elkorum.isHeloSpawn = true
 zones.elkorum.maxResource = 20000
 zones.elkorum:defineUpgrades({
     [1] = {
@@ -3876,6 +3885,7 @@ zones.naqoura:defineUpgrades({
 
 zones.kilo = ZoneCommand:new("Kilo")
 zones.kilo.initialState = { side = 1 }
+zones.kilo.isHeloSpawn = true
 zones.kilo.maxResource = 20000
 zones.kilo:defineUpgrades({
     [1] = {
@@ -3940,6 +3950,7 @@ zones.kilo:defineUpgrades({
 
 zones.homs = ZoneCommand:new("Homs")
 zones.homs.initialState = { side = 1 }
+zones.homs.isHeloSpawn = true
 zones.homs.maxResource = 20000
 zones.homs:defineUpgrades({
     [1] = {
@@ -3997,6 +4008,7 @@ zones.homs:defineUpgrades({
 -----------------[[ MissionSpecific/PretenseSyria/ZoneDefinitions/Madaya.lua ]]-----------------
 
 zones.madaya = ZoneCommand:new("Madaya")
+zones.madaya.isHeloSpawn = true
 zones.madaya.initialState = { side = 1 }
 zones.madaya.maxResource = 20000
 zones.madaya:defineUpgrades({
@@ -4236,6 +4248,7 @@ zones.alpha:defineUpgrades({
 
 zones.foxtrot = ZoneCommand:new("Foxtrot")
 zones.foxtrot.initialState = { side = 1 }
+zones.foxtrot.isHeloSpawn = true
 zones.foxtrot.maxResource = 20000
 zones.foxtrot:defineUpgrades({
     [1] = {
@@ -4410,6 +4423,7 @@ zones.hotel:defineUpgrades({
 
 zones.racetrack = ZoneCommand:new("Racetrack")
 zones.racetrack.initialState = { side = 1 }
+zones.racetrack.isHeloSpawn = true
 zones.racetrack.maxResource = 20000
 zones.racetrack:defineUpgrades({
     [1] = {
@@ -4467,6 +4481,7 @@ zones.racetrack:defineUpgrades({
 
 zones.arrastan = ZoneCommand:new("Ar Rastan")
 zones.arrastan.initialState = { side = 1 }
+zones.arrastan.isHeloSpawn = true
 zones.arrastan.maxResource = 20000
 zones.arrastan:defineUpgrades({
     [1] = {
@@ -4650,6 +4665,7 @@ zones.bravo:defineUpgrades({
 
 zones.maqne = ZoneCommand:new("Maqne")
 zones.maqne.initialState = { side = 1 }
+zones.maqne.isHeloSpawn = true
 zones.maqne.maxResource = 20000
 zones.maqne:defineUpgrades({
     [1] = {
@@ -4872,6 +4888,7 @@ zones.delta:defineUpgrades({
 
 zones.juliett = ZoneCommand:new("Juliett")
 zones.juliett.initialState = { side = 1 }
+zones.juliett.isHeloSpawn = true
 zones.juliett.maxResource = 20000
 zones.juliett:defineUpgrades({
     [1] = {
@@ -4928,6 +4945,7 @@ zones.juliett:defineUpgrades({
 
 zones.muhradah = ZoneCommand:new("Muhradah")
 zones.muhradah.initialState = { side = 1 }
+zones.muhradah.isHeloSpawn = true
 zones.muhradah.maxResource = 20000
 zones.muhradah:defineUpgrades({
     [1] = {
@@ -4978,13 +4996,100 @@ zones.muhradah:defineUpgrades({
 
 -----------------[[ END OF MissionSpecific/PretenseSyria/ZoneDefinitions/Muhradah.lua ]]-----------------
 
+-----------------[[ Akrotiri ]]-----------------
+
+zones.akrotiri = ZoneCommand:new("Akrotiri")
+zones.akrotiri.initialState = { side=2 }
+zones.akrotiri.keepActive = true
+zones.akrotiri.isHeloSpawn = true
+zones.akrotiri.isPlaneSpawn = true
+zones.akrotiri.maxResource = 50000
+zones.akrotiri:defineUpgrades({
+    [1] = { --red side
+        presets.upgrades.basic.comPost:extend({ 
+            name = 'akrotiri-com-red',
+            products = {
+                presets.special.red.infantry:extend({name='akrotiri-defense-red'}),
+				presets.defenses.red.infantry3:extend({name='akrotiri-infantry-red'})
+            }
+        }),
+        presets.upgrades.supply.fuelTank:extend({ 
+            name = 'akrotiri-fueltank-red',
+            products = {
+                presets.missions.supply.transfer:extend({name='akrotiri-transfer-red'}),
+                presets.missions.supply.convoy:extend({ name='akrotiri-supply-red'}),
+                presets.missions.supply.helo:extend({ name='akrotiri-supply-red-1' }),
+                presets.missions.supply.helo:extend({ name='akrotiri-supply-red-2' })
+            }
+        }),
+        presets.upgrades.airdef.comCenter:extend({ 
+            name = 'akrotiri-mission-command-red',
+            products = {
+                presets.defenses.red.sa2:extend({ name='akrotiri-sam-red' }),
+                presets.defenses.red.shorad2:extend({ name='akrotiri-sam2-red' }),
+                presets.defenses.red.ewr2:extend({ name='akrotiri-ewr-red' }),
+                -- presets.missions.attack.sead:extend({name='akrotiri-sead-red', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
+                -- presets.missions.attack.cas:extend({name='akrotiri-cas-red', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
+                -- presets.missions.attack.bai:extend({name='akrotiri-cas-red', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
+                presets.missions.attack.strike:extend({name='akrotiri-strike-red', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
+                -- presets.missions.patrol.aircraft:extend({name='akrotiri-patrol-red', altitude=25000, range=25})
+            }
+        }),
+        presets.upgrades.supply.hq:extend({ 
+            name = 'akrotiri-hq-red',
+            products = {}
+        })
+    }, 
+    [2] = --blue side
+    {	
+        presets.upgrades.basic.comPost:extend({ 
+            name = 'akrotiri-com-blue',
+            products = {
+                presets.special.blue.infantry:extend({name='akrotiri-defense-blue'}),
+				presets.defenses.blue.infantry3:extend({name='akrotiri-infantry-blue'})
+            }
+        }),
+        presets.upgrades.supply.fuelTank:extend({ 
+            name = 'akrotiri-fueltank-blue',
+            products = {
+                presets.missions.supply.transfer:extend({name='akrotiri-transfer-blue'}),
+                presets.missions.supply.convoy:extend({ name='akrotiri-supply-blue'}),
+                presets.missions.supply.helo:extend({ name='akrotiri-supply-blue-1' }),
+                presets.missions.supply.helo:extend({ name='akrotiri-supply-blue-2' })
+            }
+        }),
+        presets.upgrades.airdef.comCenter:extend({ 
+            name = 'akrotiri-mission-command-blue',
+            products = {
+                presets.defenses.blue.hawk:extend({ name='akrotiri-sam-blue' }),
+                presets.defenses.blue.shorad2:extend({ name='akrotiri-sam2-blue' }),
+                presets.defenses.blue.ewr1:extend({ name='akrotiri-ewr-blue' }),
+                presets.missions.attack.sead:extend({name='akrotiri-sead-blue', altitude=25000, expend=AI.Task.WeaponExpend.ALL}),
+                presets.missions.attack.cas:extend({name='akrotiri-cas-blue', altitude=15000, expend=AI.Task.WeaponExpend.ONE}),
+                presets.missions.attack.bai:extend({name='akrotiri-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
+                presets.missions.attack.strike:extend({name='akrotiri-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
+                presets.missions.patrol.aircraft:extend({name='akrotiri-patrol-blue', altitude=25000, range=25}),
+                -- presets.missions.patrol.aircraft:extend({name='akrotiri-patrol-blue-1', altitude=25000, range=25}),
+                -- presets.missions.support.tanker:extend({name='akrotiri-tanker-blue', altitude=25000, freq=257, tacan='37', variant="Drogue"})
+            }
+        }),
+        presets.upgrades.supply.hq:extend({ 
+            name = 'akrotiri-hq-blue',
+            products = {}
+        })
+    }
+})
+
+-----------------[[ END OF Akrotiri ]]-----------------
+
 
 
 	cm = ConnectionManager:new()
-	--cm:addConnection('Ramat David', 'Tiberias') -- 2000
+	cm:addConnection('Akrotiri', 'Ramat David') -- 2000
+	cm:addConnection('Ramat David', 'Tiberias') -- 2000
 	cm:addConnection('Tiberias', 'Alpha') -- 700
 	cm:addConnection('Tiberias', 'Beit Shean') -- 1300
-	--cm:addConnection('Ramat David', 'Beit Shean')
+	cm:addConnection('Ramat David', 'Beit Shean')
 	cm:addConnection('Alpha', 'Bravo') -- 1500
 	cm:addConnection('Beit Shean', 'Bravo') -- 1400
 	cm:addConnection('Irbid', 'Bravo') -- 2000
@@ -5016,7 +5121,7 @@ zones.muhradah:defineUpgrades({
 	cm:addConnection('Thalah', 'El Taebah') -- 2600
 	cm:addConnection('Thalah', 'Busra') -- 3000
 	cm:addConnection('Thalah', 'Shahba', true) -- 3800
-	--cm:addConnection('Ramat David', 'Acre') -- 900
+	cm:addConnection('Ramat David', 'Acre') -- 900
 	cm:addConnection('Jabah', 'Jasim') -- 3500
 	cm:addConnection('Jabah', 'Rosh Pina') -- 3400
 	cm:addConnection('Jabah', 'Kiryat') -- 4000
