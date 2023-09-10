@@ -1406,7 +1406,7 @@ zones.damascus:defineUpgrades({
                 presets.missions.attack.bai:extend({name='damascus-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='damascus-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='damascus-patrol-blue', altitude=25000, range=25}),
-                presets.missions.support.tanker:extend({name='damascus-tanker-blue', altitude=23000, freq=258, tacan='38', variant='Boom'})
+                --presets.missions.support.tanker:extend({name='damascus-tanker-blue', altitude=23000, freq=258, tacan='38', variant='Boom'})
             }
         })
     }
@@ -1799,7 +1799,7 @@ zones.ramatdavid:defineUpgrades({
                 presets.missions.attack.strike:extend({name='ramatdavid-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='ramatdavid-patrol-blue', altitude=25000, range=25}),
                 presets.missions.patrol.aircraft:extend({name='ramatdavid-patrol-blue-1', altitude=25000, range=25}),
-                presets.missions.support.tanker:extend({name='ramatdavid-tanker-blue', altitude=25000, freq=257, tacan='37', variant="Drogue"})
+                --presets.missions.support.tanker:extend({name='ramatdavid-tanker-blue', altitude=25000, freq=257, tacan='37', variant="Drogue"})
             }
         }),
         presets.upgrades.supply.hq:extend({ 
@@ -1882,7 +1882,7 @@ zones.beirut:defineUpgrades({
                 presets.missions.attack.bai:extend({name='beirut-cas-blue', altitude=10000, expend=AI.Task.WeaponExpend.ONE}),
                 presets.missions.attack.strike:extend({name='beirut-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='beirut-patrol-blue', altitude=25000, range=25}),
-                presets.missions.support.awacs:extend({name='beirut-awacs-blue', altitude=31000, freq=258.5})
+                --presets.missions.support.awacs:extend({name='beirut-awacs-blue', altitude=31000, freq=258.5})
             }
         })
     }
@@ -4818,7 +4818,7 @@ zones.hussein:defineUpgrades({
                 presets.missions.attack.strike:extend({name='hussein-strike-blue', altitude=20000, expend=AI.Task.WeaponExpend.ALL}),
                 presets.missions.patrol.aircraft:extend({name='hussein-patrol-blue', altitude=25000, range=25}),
                 presets.missions.patrol.aircraft:extend({name='hussein-patrol-blue-1', altitude=25000, range=25}),
-                presets.missions.support.awacs:extend({name='hussein-awacs-blue', altitude=30000, freq=257.5})
+                --presets.missions.support.awacs:extend({name='hussein-awacs-blue', altitude=30000, freq=257.5})
             }
         })
     }
