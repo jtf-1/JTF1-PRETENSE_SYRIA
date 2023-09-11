@@ -28,7 +28,13 @@ ECHO:
 :: Create library scripts folder if it doesn't exist
 if NOT EXIST %dynamicscriptpath%lib\ md %dynamicscriptpath%lib
 
+:: add folder for pretense saves
+if NOT EXIST %dynamicscriptpath%saves\ md %dynamicscriptpath%saves
+
 :: Create symlinks to library files
+:: SAVES
+MKLINK /j %dynamicscriptpath%saves\server "C:\Users\rober\Saved Games\DCS.openbeta_server\missions\Saves"
+MKLINK /j %dynamicscriptpath%saves\client "C:\Users\rober\Saved Games\DCS.openbeta\Missions\Saves"
 :: MOOSE
 MKLINK /j %dynamicscriptpath%lib\Moose "D:\GitHub\Moose_Framework\Moose Development\Moose"
 MKLINK %dynamicscriptpath%lib\Moose.lua "d:\GitHub\MOOSE_INCLUDE\Moose_Include_Static\Moose.lua"
