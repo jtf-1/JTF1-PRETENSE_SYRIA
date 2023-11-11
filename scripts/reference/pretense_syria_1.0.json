@@ -1,777 +1,897 @@
 {
     "activeGroups": {
-      "alassad-strike-red": {
-        "heading": 3.1399397181436,
+      "akrotiri-strike-blue": {
+        "heading": -1.1434133519671,
+        "homeName": "Akrotiri",
+        "lastMission": {
+          "zoneName": "Marj"
+        },
+        "lastStateDuration": 2969,
+        "position": {
+          "x": -102905.1401993,
+          "y": 3518.9670853091,
+          "z": -120216.57628958
+        },
+        "productName": "akrotiri-strike-blue",
+        "state": "inair",
+        "targetName": "Marj",
+        "type": "strike"
+      },
+      "alassad-cas-red": {
+        "heading": -2.948355420692,
         "homeName": "Al Assad",
         "lastMission": {
-          "zoneName": "Khan Alsheh"
+          "zoneName": "Qaraoun"
         },
-        "lastStateDuration": 709,
+        "lastStateDuration": 769,
         "position": {
-          "x": -112692.43239772,
-          "y": 5294.8391855984,
-          "z": 11915.307083191
+          "x": -126353.13119901,
+          "y": 4999.9997303366,
+          "z": -14674.389680873
         },
-        "productName": "alassad-strike-red",
+        "productName": "alassad-cas-red",
         "state": "inair",
-        "targetName": "Khan Alsheh",
+        "targetName": "Qaraoun",
+        "type": "cas"
+      },
+      "alassad-patrol-red": {
+        "heading": -0.52401234052008,
+        "homeName": "Al Assad",
+        "lastMission": {
+          "zone1name": "Tripoli"
+        },
+        "lastStateDuration": 2629,
+        "position": {
+          "x": -81255.910138216,
+          "y": 196.30485646753,
+          "z": -22847.687223434
+        },
+        "productName": "alassad-patrol-red",
+        "state": "inair",
+        "targetName": "Tripoli",
+        "type": "patrol"
+      },
+      "aldumayr-strike-red": {
+        "heading": 1.1467477730706,
+        "homeName": "Al Dumayr",
+        "lastMission": {
+          "zoneName": "Qaraoun"
+        },
+        "lastStateDuration": 1839,
+        "position": {
+          "x": -158765.50199387,
+          "y": 631.94366455078,
+          "z": 73250.116905688
+        },
+        "productName": "aldumayr-strike-red",
+        "state": "inair",
+        "targetName": "Qaraoun",
         "type": "strike"
       },
       "aldumayr-supply-red": {
-        "heading": -1.0873651745301,
+        "heading": 1.6555059785485,
         "homeName": "Al Dumayr",
         "lastMission": {
           "zoneName": "Duma"
         },
-        "lastStateDuration": 4349,
+        "lastStateDuration": 1669,
         "position": {
-          "x": -154906.44896414,
-          "y": 669.19502295571,
-          "z": 68406.207790471
+          "x": -155130.48672117,
+          "y": 676.79694126766,
+          "z": 69356.961315583
         },
         "productName": "aldumayr-supply-red",
         "state": "enroute",
         "targetName": "Duma",
         "type": "supply_convoy"
       },
-      "aldumayr-supply-red-2": {
-        "heading": -1.718618047737,
-        "homeName": "Al Dumayr",
-        "lastMission": {
-          "zoneName": "Duma"
-        },
-        "lastStateDuration": 449,
-        "position": {
-          "x": -162088.90850016,
-          "y": 631.09628722659,
-          "z": 50060.985856154
-        },
-        "productName": "aldumayr-supply-red-2",
-        "state": "inair",
-        "targetName": "Duma",
-        "type": "supply_air"
-      },
-      "alqusayr-cas-red": {
-        "heading": 2.1816146208369,
+      "alqusayr-sead-red": {
+        "heading": -1.7443932406531,
         "homeName": "Al Qusayr",
         "lastMission": {
-          "active": true
+          "zoneName": "Beirut"
         },
-        "lastStateDuration": 1339,
+        "lastStateDuration": 769,
         "position": {
-          "x": -239494.20033687,
-          "y": 1296.5273777102,
-          "z": -50209.774004575
+          "x": -124271.39878333,
+          "y": 5000.0002323965,
+          "z": 1407.0755242752
         },
-        "productName": "alqusayr-cas-red",
+        "productName": "alqusayr-sead-red",
         "state": "inair",
-        "type": "bai"
+        "targetName": "Beirut",
+        "type": "sead"
       },
       "alqutayfah-supply-red": {
-        "heading": -2.1199691985714,
+        "heading": 1.8655105686614,
         "homeName": "Al Qutayfah",
         "lastMission": {
-          "zoneName": "Duma"
+          "zoneName": "An Nasiriyah"
         },
-        "lastStateDuration": 1039,
+        "lastStateDuration": 5599,
         "position": {
-          "x": -158509.3958347,
-          "y": 620.51796682721,
-          "z": 48554.296126888
+          "x": -143769.15913934,
+          "y": 872.21132469056,
+          "z": 64438.073376367
         },
         "productName": "alqutayfah-supply-red",
         "state": "enroute",
-        "targetName": "Duma",
+        "targetName": "An Nasiriyah",
         "type": "supply_convoy"
       },
       "annasiriyah-sead-red": {
-        "heading": 1.8254558248008,
+        "heading": -0.69267140289656,
         "homeName": "An Nasiriyah",
         "lastMission": {
-          "zoneName": "Delta"
+          "zoneName": "Beirut"
         },
-        "lastStateDuration": 289,
+        "lastStateDuration": 1129,
         "position": {
-          "x": -123896.203125,
-          "y": 838.22204589844,
-          "z": 86570.6875
+          "x": -104328.7808321,
+          "y": 4571.9987286275,
+          "z": 70335.336604419
         },
         "productName": "annasiriyah-sead-red",
-        "state": "takeoff",
-        "targetName": "Delta",
+        "state": "inair",
+        "targetName": "Beirut",
         "type": "sead"
       },
-      "damascus-patrol-red": {
-        "heading": 1.0409352422453,
-        "homeName": "Damascus",
+      "annasiriyah-supply-red": {
+        "heading": -1.7954446649744,
+        "homeName": "An Nasiriyah",
         "lastMission": {
-          "zone1name": "Qaraoun"
+          "zoneName": "Al Qutayfah"
         },
-        "lastStateDuration": 429,
+        "lastStateDuration": 23149,
         "position": {
-          "x": -225876.98562796,
-          "y": 1384.2378724618,
-          "z": 48274.851611928
+          "x": -143970.02050671,
+          "y": 895.65658276269,
+          "z": 62308.499411351
         },
-        "productName": "damascus-patrol-red",
-        "state": "inair",
-        "targetName": "Qaraoun",
-        "type": "patrol"
-      },
-      "damascus-supply-red": {
-        "heading": -1.2199782473438,
-        "homeName": "Damascus",
-        "lastMission": {
-          "zoneName": "Mezzeh"
-        },
-        "lastStateDuration": 5699,
-        "position": {
-          "x": -171586.61675697,
-          "y": 666.02136136347,
-          "z": 36411.396676945
-        },
-        "productName": "damascus-supply-red",
+        "productName": "annasiriyah-supply-red",
         "state": "enroute",
-        "targetName": "Mezzeh",
+        "targetName": "Al Qutayfah",
         "type": "supply_convoy"
       },
-      "delta-supply-blue": {
-        "heading": -2.5978365956752,
-        "homeName": "Delta",
+      "annasiriyah-supply-red-2": {
+        "heading": -1.5711251550167,
+        "homeName": "An Nasiriyah",
+        "lastMission": {
+          "zoneName": "Al Dumayr"
+        },
+        "lastStateDuration": 709,
+        "position": {
+          "x": -157986.37353666,
+          "y": 637.0790392699,
+          "z": 75224.307719375
+        },
+        "productName": "annasiriyah-supply-red-2",
+        "state": "inair",
+        "targetName": "Al Dumayr",
+        "type": "supply_air"
+      },
+      "charlie-supply-blue": {
+        "heading": 1.6373977883417,
+        "homeName": "Charlie",
         "lastMission": {
           "zoneName": "Jasim"
         },
-        "lastStateDuration": 3379,
+        "lastStateDuration": 1989,
         "position": {
-          "x": -223011.87128404,
-          "y": 621.55478486507,
-          "z": 13954.196873191
+          "x": -225484.66039715,
+          "y": 658.33662477229,
+          "z": 7043.9357535086
         },
-        "productName": "delta-supply-blue",
+        "productName": "charlie-supply-blue",
         "state": "enroute",
         "targetName": "Jasim",
         "type": "supply_convoy"
       },
-      "duma-supply-red": {
-        "heading": -1.2104129094399,
+      "delta-supply-blue": {
+        "heading": -1.5102951627363,
+        "homeName": "Delta",
+        "lastMission": {
+          "zoneName": "Ghabagheb"
+        },
+        "lastStateDuration": 49,
+        "position": {
+          "x": -220964.96307102,
+          "y": 604.69698677632,
+          "z": 27299.515183107
+        },
+        "productName": "delta-supply-blue",
+        "state": "enroute",
+        "targetName": "Ghabagheb",
+        "type": "supply_convoy"
+      },
+      "duma-assault-red": {
+        "heading": -2.253970964763,
         "homeName": "Duma",
         "lastMission": {
           "zoneName": "Mezzeh"
         },
-        "lastStateDuration": 5269,
+        "lastStateDuration": 24199,
         "position": {
-          "x": -164979.78484929,
-          "y": 704.45731941601,
-          "z": 36619.856273913
+          "x": -167784.71100466,
+          "y": 698.746186079,
+          "z": 30772.512740385
         },
-        "productName": "duma-supply-red",
+        "productName": "duma-assault-red",
         "state": "enroute",
         "targetName": "Mezzeh",
-        "type": "supply_convoy"
+        "type": "assault"
       },
       "etturra-supply-blue-1": {
-        "heading": 0.0035177259100781,
+        "heading": 0.12677143056187,
         "homeName": "Et Turra",
         "lastMission": {
           "zoneName": "Jasim"
         },
-        "lastStateDuration": 609,
+        "lastStateDuration": 179,
         "position": {
-          "x": -235574.38184079,
-          "y": 600.71521141535,
-          "z": 5775.5049293302
+          "x": -252629.45616896,
+          "y": 499.90873019191,
+          "z": 2362.218586584
         },
         "productName": "etturra-supply-blue-1",
         "state": "inair",
         "targetName": "Jasim",
         "type": "supply_air"
       },
-      "hama-cas-red": {
-        "heading": -2.7788490993798,
+      "ghabagheb-supply-blue": {
+        "heading": 1.7522798850911,
+        "homeName": "Ghabagheb",
+        "lastMission": {
+          "zoneName": "Khalkhalah"
+        },
+        "lastStateDuration": 629,
+        "position": {
+          "x": -205272.33764127,
+          "y": 605.1988955875,
+          "z": 34986.932861474
+        },
+        "productName": "ghabagheb-supply-blue",
+        "state": "enroute",
+        "targetName": "Khalkhalah",
+        "type": "supply_convoy"
+      },
+      "ghabagheb-supply2-blue": {
+        "heading": 1.826946967836,
+        "homeName": "Ghabagheb",
+        "lastMission": {
+          "zoneName": "Khalkhalah"
+        },
+        "lastStateDuration": 159,
+        "position": {
+          "x": -205577.8841837,
+          "y": 729.70298349197,
+          "z": 28590.35549366
+        },
+        "productName": "ghabagheb-supply2-blue",
+        "state": "enroute",
+        "targetName": "Khalkhalah",
+        "type": "supply_convoy"
+      },
+      "hama-patrol-red": {
+        "heading": 2.6735013765718,
         "homeName": "Hama",
         "lastMission": {
-          "active": true
+          "zone1name": "Tripoli"
         },
-        "lastStateDuration": 2399,
+        "lastStateDuration": 1369,
         "position": {
-          "x": -181780.41047343,
-          "y": 2861.4421148108,
-          "z": 15630.760133232
+          "x": -22262.111411308,
+          "y": 2327.9308232216,
+          "z": -39030.811120784
         },
-        "productName": "hama-cas-red",
+        "productName": "hama-patrol-red",
         "state": "inair",
-        "type": "bai"
+        "targetName": "Tripoli",
+        "type": "patrol"
       },
-      "hussein-sead-blue": {
-        "heading": 2.3009975061142,
+      "hussein-strike-blue": {
+        "heading": 2.0203894334782,
         "homeName": "Hussein",
         "lastMission": {
           "zoneName": "Damascus"
         },
-        "lastStateDuration": 1829,
+        "lastStateDuration": 229,
         "position": {
-          "x": -296395.39512908,
-          "y": 673.85327148438,
-          "z": 24435.917311657
+          "x": -297905.34627101,
+          "y": 1285.9742764452,
+          "z": 3820.954917643
         },
-        "productName": "hussein-sead-blue",
+        "productName": "hussein-strike-blue",
         "state": "inair",
         "targetName": "Damascus",
-        "type": "sead"
+        "type": "strike"
       },
       "jabah-supply-blue": {
-        "heading": 2.0117941969317,
+        "heading": -2.9671166133812,
         "homeName": "Jabah",
         "lastMission": {
-          "zoneName": "Khan Alsheh"
+          "zoneName": "Ghabagheb"
         },
-        "lastStateDuration": 109,
+        "lastStateDuration": 169,
         "position": {
-          "x": -184030.9496871,
-          "y": 781.11508301474,
-          "z": 14756.340117837
+          "x": -207926.05869218,
+          "y": 914.29347191554,
+          "z": -924.88389038437
         },
         "productName": "jabah-supply-blue",
-        "state": "atdestination",
-        "targetName": "Khan Alsheh",
+        "state": "enroute",
+        "targetName": "Ghabagheb",
         "type": "supply_convoy"
       },
-      "jasim-assault-blue": {
-        "heading": 1.583236662716,
+      "jasim-supply-blue": {
+        "heading": 1.3553761932298,
         "homeName": "Jasim",
         "lastMission": {
           "zoneName": "Ghabagheb"
         },
-        "lastStateDuration": 4489,
+        "lastStateDuration": 149,
         "position": {
-          "x": -223037.28695323,
-          "y": 619.56878698427,
-          "z": 14532.031617383
+          "x": -225858.05955289,
+          "y": 645.76431612842,
+          "z": 8345.7688093959
         },
-        "productName": "jasim-assault-blue",
-        "state": "enroute",
+        "productName": "jasim-supply-blue",
+        "state": "started",
         "targetName": "Ghabagheb",
-        "type": "assault"
+        "type": "supply_convoy"
       },
       "jasim-supply-blue-1": {
-        "heading": 0.048748319391928,
+        "heading": 0.55647251055904,
         "homeName": "Jasim",
         "lastMission": {
-          "zoneName": "Khan Alsheh"
+          "zoneName": "Ghabagheb"
         },
-        "lastStateDuration": 339,
+        "lastStateDuration": 529,
         "position": {
-          "x": -216394.94005705,
-          "y": 738.99860544952,
-          "z": 9311.087426773
+          "x": -206805.33609262,
+          "y": 705.91337557996,
+          "z": 23118.155502012
         },
         "productName": "jasim-supply-blue-1",
         "state": "inair",
-        "targetName": "Khan Alsheh",
+        "targetName": "Ghabagheb",
         "type": "supply_air"
       },
-      "khalkhalah-patrol-blue": {
-        "heading": -1.8162557022954,
+      "khalkhalah-strike-blue": {
+        "heading": 2.7708154244054,
         "homeName": "Khalkhalah",
         "lastMission": {
-          "zone1name": "Tyre"
+          "zoneName": "Damascus"
         },
-        "lastStateDuration": 1019,
+        "lastStateDuration": 149,
         "position": {
-          "x": -217454.94957658,
-          "y": 933.96029351652,
-          "z": 60900.794473866
+          "x": -218812.08002277,
+          "y": 1468.6532635234,
+          "z": 58783.394202232
         },
-        "productName": "khalkhalah-patrol-blue",
+        "productName": "khalkhalah-strike-blue",
         "state": "inair",
-        "targetName": "Tyre",
-        "type": "patrol"
+        "targetName": "Damascus",
+        "type": "strike"
       },
-      "khanalsheh-assault-blue": {
-        "heading": 0.62177013233478,
+      "khalkhalah-supply-blue": {
+        "heading": -1.8475060739249,
+        "homeName": "Khalkhalah",
+        "lastMission": {
+          "zoneName": "Ghabagheb"
+        },
+        "lastStateDuration": 79,
+        "position": {
+          "x": -217499.56149582,
+          "y": 698.23473167533,
+          "z": 54445.253943728
+        },
+        "productName": "khalkhalah-supply-blue",
+        "state": "started",
+        "targetName": "Ghabagheb",
+        "type": "supply_convoy"
+      },
+      "khalkhalah-supply-blue-2": {
+        "heading": -1.2035426863993,
+        "homeName": "Khalkhalah",
+        "lastMission": {
+          "zoneName": "Ghabagheb"
+        },
+        "lastStateDuration": 339,
+        "position": {
+          "x": -210344.67936532,
+          "y": 616.14138589815,
+          "z": 37280.461528335
+        },
+        "productName": "khalkhalah-supply-blue-2",
+        "state": "inair",
+        "targetName": "Ghabagheb",
+        "type": "supply_air"
+      },
+      "khanalsheh-supply-blue": {
+        "heading": 0.5393475420681,
         "homeName": "Khan Alsheh",
         "lastMission": {
           "zoneName": "Mezzeh"
         },
-        "lastStateDuration": 509,
+        "lastStateDuration": 849,
         "position": {
-          "x": -176803.65768427,
-          "y": 758.88760626621,
-          "z": 18571.545948988
-        },
-        "productName": "khanalsheh-assault-blue",
-        "state": "enroute",
-        "targetName": "Mezzeh",
-        "type": "assault"
-      },
-      "khanalsheh-supply-blue": {
-        "heading": 1.3586478080893,
-        "homeName": "Khan Alsheh",
-        "lastMission": {
-          "zoneName": "Ghabagheb"
-        },
-        "lastStateDuration": 1289,
-        "position": {
-          "x": -187619.88974368,
-          "y": 756.77040652328,
-          "z": 18831.249218234
+          "x": -175190.35678696,
+          "y": 749.6758289238,
+          "z": 19569.608995178
         },
         "productName": "khanalsheh-supply-blue",
         "state": "enroute",
-        "targetName": "Ghabagheb",
+        "targetName": "Mezzeh",
         "type": "supply_convoy"
       },
       "khirbet-supply-blue": {
-        "heading": -0.2778347254243,
+        "heading": -1.083285740956,
         "homeName": "Khirbet",
         "lastMission": {
           "zoneName": "Jasim"
         },
-        "lastStateDuration": 2239,
+        "lastStateDuration": 1979,
         "position": {
-          "x": -235621.29134229,
-          "y": 562.07690203217,
-          "z": 14902.903058187
+          "x": -235005.14185452,
+          "y": 565.74149357107,
+          "z": 14739.136446899
         },
         "productName": "khirbet-supply-blue",
         "state": "enroute",
         "targetName": "Jasim",
         "type": "supply_convoy"
       },
-      "kiryat-supply-blue-1": {
-        "heading": -0.0021174654137766,
+      "kiryat-cas-blue": {
+        "heading": 0.37862476067653,
         "homeName": "Kiryat",
         "lastMission": {
-          "zoneName": "Nebatieh"
+          "active": true
         },
-        "lastStateDuration": 159,
+        "lastStateDuration": 1759,
         "position": {
-          "x": -199860.50825121,
-          "y": 103.9210211683,
-          "z": -34849.406793193
+          "x": -170539.13404738,
+          "y": 3195.1863334801,
+          "z": 55829.156428879
         },
-        "productName": "kiryat-supply-blue-1",
-        "state": "takeoff",
-        "targetName": "Nebatieh",
-        "type": "supply_air"
+        "productName": "kiryat-cas-blue",
+        "state": "inair",
+        "type": "bai"
       },
-      "madaya-supply-red": {
-        "heading": 1.1564603478934,
+      "madaya-assault-red": {
+        "heading": 0.70309206397392,
         "homeName": "Madaya",
         "lastMission": {
           "zoneName": "Mezzeh"
         },
-        "lastStateDuration": 5759,
+        "lastStateDuration": 24359,
         "position": {
-          "x": -155553.6833043,
-          "y": 1014.5482878451,
-          "z": 13588.352407133
+          "x": -155259.17688485,
+          "y": 1007.1811299038,
+          "z": 13714.127427294
         },
-        "productName": "madaya-supply-red",
+        "productName": "madaya-assault-red",
         "state": "enroute",
         "targetName": "Mezzeh",
+        "type": "assault"
+      },
+      "maqne-supply-red": {
+        "heading": 2.9595185933344,
+        "homeName": "Maqne",
+        "lastMission": {
+          "zoneName": "Rayak"
+        },
+        "lastStateDuration": 439,
+        "position": {
+          "x": -113054.78576272,
+          "y": 1089.3179074619,
+          "z": 22334.811008515
+        },
+        "productName": "maqne-supply-red",
+        "state": "enroute",
+        "targetName": "Rayak",
+        "type": "supply_convoy"
+      },
+      "maqne-supply2-red": {
+        "heading": -2.0169331796022,
+        "homeName": "Maqne",
+        "lastMission": {
+          "zoneName": "Rayak"
+        },
+        "lastStateDuration": 9,
+        "position": {
+          "x": -106300.04158508,
+          "y": 1088.9865062957,
+          "z": 24714.495130487
+        },
+        "productName": "maqne-supply2-red",
+        "state": "started",
+        "targetName": "Rayak",
         "type": "supply_convoy"
       },
       "marj-cas-red-1": {
-        "heading": 2.4611410983764,
+        "heading": 2.4670331331075,
         "homeName": "Marj",
         "lastMission": {
-          "zoneName": "Khalkhalah"
+          "zoneName": "Ghabagheb"
         },
-        "lastStateDuration": 39,
+        "lastStateDuration": 239,
         "position": {
-          "x": -193064.40476322,
-          "y": 657.95807944094,
-          "z": 46077.903136459
+          "x": -193064.09740959,
+          "y": 657.95078881643,
+          "z": 46077.718964417
         },
         "productName": "marj-cas-red-1",
         "state": "takeoff",
-        "targetName": "Khalkhalah",
+        "targetName": "Ghabagheb",
         "type": "cas_helo"
       },
-      "marj-cas-red-2": {
-        "heading": 1.2757663530281,
-        "homeName": "Marj",
-        "lastMission": {
-          "zoneName": "Khalkhalah"
-        },
-        "lastStateDuration": 669,
-        "position": {
-          "x": -217220.57174768,
-          "y": 751.65512774329,
-          "z": 56229.443484774
-        },
-        "productName": "marj-cas-red-2",
-        "state": "inair",
-        "targetName": "Khalkhalah",
-        "type": "cas_helo"
-      },
-      "mezzeh-supply-red": {
-        "heading": 1.7137556810184,
+      "mezzeh-strike-blue": {
+        "heading": -2.0808434198387,
         "homeName": "Mezzeh",
         "lastMission": {
           "zoneName": "Damascus"
         },
-        "lastStateDuration": 32829,
+        "lastStateDuration": 169,
         "position": {
-          "x": -170883.2843681,
-          "y": 670.5098565785,
-          "z": 33059.497309747
+          "x": -172242.64515113,
+          "y": 728.63799582005,
+          "z": 24719.16735618
         },
-        "productName": "mezzeh-supply-red",
-        "state": "enroute",
+        "productName": "mezzeh-strike-blue",
+        "state": "takeoff",
         "targetName": "Damascus",
-        "type": "supply_convoy"
+        "type": "strike"
       },
-      "naqoura-supply-blue-2": {
-        "heading": -0.41914298031566,
+      "naqoura-supply-blue-1": {
+        "heading": 0.81047922049132,
         "homeName": "Naqoura",
         "lastMission": {
           "zoneName": "Nebatieh"
         },
-        "lastStateDuration": 99,
+        "lastStateDuration": 199,
         "position": {
-          "x": -210009.09499743,
-          "y": 117.17212326783,
-          "z": -78621.700905705
+          "x": -202038.55967949,
+          "y": 499.94576009076,
+          "z": -69243.081580083
         },
-        "productName": "naqoura-supply-blue-2",
-        "state": "takeoff",
+        "productName": "naqoura-supply-blue-1",
+        "state": "inair",
         "targetName": "Nebatieh",
         "type": "supply_air"
       },
-      "nebatieh-supply-blue": {
-        "heading": -3.0147693574606,
-        "homeName": "Nebatieh",
+      "naqoura-supply-blue-2": {
+        "heading": -1.5635803826719,
+        "homeName": "Naqoura",
         "lastMission": {
-          "zoneName": "Kiryat"
+          "zoneName": "Nebatieh"
         },
-        "lastStateDuration": 1849,
+        "lastStateDuration": 759,
         "position": {
-          "x": -188873.88957922,
-          "y": 375.55765504695,
-          "z": -38531.316000259
+          "x": -181213.3612122,
+          "y": 411.17339959246,
+          "z": -44661.924449577
         },
-        "productName": "nebatieh-supply-blue",
-        "state": "enroute",
-        "targetName": "Kiryat",
-        "type": "supply_convoy"
+        "productName": "naqoura-supply-blue-2",
+        "state": "inair",
+        "targetName": "Nebatieh",
+        "type": "supply_air"
       },
       "palmyra-cas-red": {
-        "heading": -2.0215880242008,
+        "heading": 1.2310681831889,
         "homeName": "Palmyra",
         "lastMission": {
           "active": true
         },
-        "lastStateDuration": 1249,
+        "lastStateDuration": 2259,
         "position": {
-          "x": -136186.87371722,
-          "y": 3597.2335427351,
-          "z": 55162.349592889
+          "x": -210952.74061765,
+          "y": 2739.0207608068,
+          "z": 7113.4612338259
         },
         "productName": "palmyra-cas-red",
         "state": "inair",
         "type": "bai"
       },
-      "palmyra-strike-red": {
-        "heading": -2.3630210934584,
+      "palmyra-sead-red": {
+        "heading": -2.1548013084854,
         "homeName": "Palmyra",
         "lastMission": {
-          "zoneName": "Qaraoun"
+          "zoneName": "Khalkhalah"
         },
-        "lastStateDuration": 2749,
+        "lastStateDuration": 269,
         "position": {
-          "x": -123832.71163001,
-          "y": 837.70004734979,
-          "z": 86704.159526859
+          "x": -65227.215027745,
+          "y": 1656.4658079387,
+          "z": 213232.16838401
         },
-        "productName": "palmyra-strike-red",
+        "productName": "palmyra-sead-red",
         "state": "inair",
-        "targetName": "Qaraoun",
-        "type": "strike"
-      },
-      "qaraoun-supply1-blue": {
-        "heading": -1.7058337587434,
-        "homeName": "Qaraoun",
-        "lastMission": {
-          "zoneName": "Kiryat"
-        },
-        "lastStateDuration": 2949,
-        "position": {
-          "x": -181905.11029681,
-          "y": 511.94553500141,
-          "z": -29304.325116661
-        },
-        "productName": "qaraoun-supply1-blue",
-        "state": "enroute",
-        "targetName": "Kiryat",
-        "type": "supply_convoy"
+        "targetName": "Khalkhalah",
+        "type": "sead"
       },
       "qaraoun-supply2-blue": {
-        "heading": -2.3001435517236,
+        "heading": 0.62489215725967,
         "homeName": "Qaraoun",
         "lastMission": {
           "zoneName": "Kiryat"
         },
-        "lastStateDuration": 2559,
+        "lastStateDuration": 1669,
         "position": {
-          "x": -179950.49402023,
-          "y": 595.78014795793,
-          "z": -29357.052860983
+          "x": -170360.89669056,
+          "y": 1197.9142577172,
+          "z": -22464.507716792
         },
         "productName": "qaraoun-supply2-blue",
         "state": "enroute",
         "targetName": "Kiryat",
         "type": "supply_convoy"
       },
+      "qaraoun-supply3-blue": {
+        "heading": -2.6761170891962,
+        "homeName": "Qaraoun",
+        "lastMission": {
+          "zoneName": "Kiryat"
+        },
+        "lastStateDuration": 1329,
+        "position": {
+          "x": -166203.72691063,
+          "y": 942.54689397247,
+          "z": -20745.274091235
+        },
+        "productName": "qaraoun-supply3-blue",
+        "state": "enroute",
+        "targetName": "Kiryat",
+        "type": "supply_convoy"
+      },
+      "ramatdavid-strike-blue": {
+        "heading": -1.594461914896,
+        "homeName": "Ramat David",
+        "lastMission": {
+          "zoneName": "Damascus"
+        },
+        "lastStateDuration": 9,
+        "position": {
+          "x": -259162.12656816,
+          "y": 146.95086594582,
+          "z": -77712.170620089
+        },
+        "productName": "ramatdavid-strike-blue",
+        "state": "inair",
+        "targetName": "Damascus",
+        "type": "strike"
+      },
       "rayak-cas-red-2": {
-        "heading": 0.81490453577136,
+        "heading": -2.3202377489604,
         "homeName": "Rayak",
         "lastMission": {
           "zoneName": "Qaraoun"
         },
-        "lastStateDuration": 2729,
+        "lastStateDuration": 2009,
         "position": {
-          "x": -129346.55909324,
-          "y": 928.25978270831,
-          "z": 5463.0787858742
+          "x": -130764.84140024,
+          "y": 900.67442333716,
+          "z": 3393.9407277515
         },
         "productName": "rayak-cas-red-2",
         "state": "inair",
         "targetName": "Qaraoun",
         "type": "cas_helo"
       },
-      "rayak-supply-red": {
-        "heading": -1.8263294153655,
-        "homeName": "Rayak",
-        "lastMission": {
-          "zoneName": "Qaraoun"
-        },
-        "lastStateDuration": 59,
-        "position": {
-          "x": -130492.42830955,
-          "y": 917.36840324364,
-          "z": 5091.3078053835
-        },
-        "productName": "rayak-supply-red",
-        "state": "atdestination",
-        "targetName": "Qaraoun",
-        "type": "supply_convoy"
-      },
-      "rayak-supply-red-1": {
-        "heading": 0.73010138487901,
-        "homeName": "Rayak",
-        "lastMission": {
-          "zoneName": "Qaraoun"
-        },
-        "lastStateDuration": 989,
-        "position": {
-          "x": -159816.68728282,
-          "y": 946.67190310195,
-          "z": -21006.785977852
-        },
-        "productName": "rayak-supply-red-1",
-        "state": "inair",
-        "targetName": "Qaraoun",
-        "type": "supply_air"
-      },
       "rayak-supply-red-2": {
-        "heading": -2.374941296239,
+        "heading": 2.8551125402561,
         "homeName": "Rayak",
         "lastMission": {
-          "zoneName": "Qaraoun"
+          "zoneName": "Madaya"
         },
-        "lastStateDuration": 199,
+        "lastStateDuration": 369,
         "position": {
-          "x": -137998.03698244,
-          "y": 888.87402560335,
-          "z": -2033.030871779
+          "x": -144224.79188596,
+          "y": 1439.3544439474,
+          "z": 10817.507867061
         },
         "productName": "rayak-supply-red-2",
         "state": "inair",
-        "targetName": "Qaraoun",
+        "targetName": "Madaya",
         "type": "supply_air"
       },
       "rene-cas-red": {
-        "heading": -2.8953130686948,
+        "heading": -2.8479802774696,
         "homeName": "Rene",
         "lastMission": {
           "zoneName": "Qaraoun"
         },
-        "lastStateDuration": 159,
+        "lastStateDuration": 499,
         "position": {
-          "x": -78760.817910486,
-          "y": 4999.9934152355,
-          "z": -889.80051015239
+          "x": -136025.94626025,
+          "y": 4999.9997375062,
+          "z": -13942.67310973
         },
         "productName": "rene-cas-red",
         "state": "inair",
         "targetName": "Qaraoun",
         "type": "cas"
       },
-      "rene-supply-red-1": {
-        "heading": 1.6580947003201,
+      "rene-supply-red": {
+        "heading": -2.2373622937999,
         "homeName": "Rene",
         "lastMission": {
-          "zoneName": "Wujah"
+          "zoneName": "Tripoli"
         },
-        "lastStateDuration": 79,
+        "lastStateDuration": 19189,
         "position": {
-          "x": -47989.089227715,
-          "y": 6.9672920487804,
-          "z": 8527.5005289188
+          "x": -56881.590768214,
+          "y": 12.913591470798,
+          "z": 3516.263436993
         },
-        "productName": "rene-supply-red-1",
-        "state": "takeoff",
-        "targetName": "Wujah",
-        "type": "supply_air"
+        "productName": "rene-supply-red",
+        "state": "enroute",
+        "targetName": "Tripoli",
+        "type": "supply_convoy"
       },
-      "rene-supply-red-2": {
-        "heading": -2.3244365413242,
-        "homeName": "Rene",
-        "lastMission": {
-          "zoneName": "Wujah"
-        },
-        "lastStateDuration": 149,
-        "position": {
-          "x": -54095.728254762,
-          "y": 500.2654698812,
-          "z": 2777.8681526573
-        },
-        "productName": "rene-supply-red-2",
-        "state": "inair",
-        "targetName": "Wujah",
-        "type": "supply_air"
-      },
-      "roshpina-supply-blue-2": {
-        "heading": 1.6181612938377,
+      "roshpina-supply-blue-1": {
+        "heading": -0.25851627942619,
         "homeName": "Rosh Pina",
         "lastMission": {
           "zoneName": "Nebatieh"
         },
-        "lastStateDuration": 769,
+        "lastStateDuration": 699,
         "position": {
-          "x": -194898.03203786,
-          "y": 700.21647514496,
-          "z": -41615.4861116
+          "x": -189461.93950037,
+          "y": 495.13039612646,
+          "z": -43434.289133108
+        },
+        "productName": "roshpina-supply-blue-1",
+        "state": "inair",
+        "targetName": "Nebatieh",
+        "type": "supply_air"
+      },
+      "roshpina-supply-blue-2": {
+        "heading": -0.30101741186559,
+        "homeName": "Rosh Pina",
+        "lastMission": {
+          "zoneName": "Nebatieh"
+        },
+        "lastStateDuration": 339,
+        "position": {
+          "x": -207654.45722746,
+          "y": 589.86394655055,
+          "z": -40546.72836447
         },
         "productName": "roshpina-supply-blue-2",
         "state": "inair",
         "targetName": "Nebatieh",
         "type": "supply_air"
       },
-      "sayqal-cas-red": {
-        "heading": 1.8539523168916,
+      "saida-supply-blue": {
+        "heading": 1.3092899832922,
+        "homeName": "Saida",
+        "lastMission": {
+          "zoneName": "Beirut"
+        },
+        "lastStateDuration": 769,
+        "position": {
+          "x": -150992.32380019,
+          "y": 19.386613212163,
+          "z": -51067.634463116
+        },
+        "productName": "saida-supply-blue",
+        "state": "enroute",
+        "targetName": "Beirut",
+        "type": "supply_convoy"
+      },
+      "sayqal-sead-red": {
+        "heading": -1.4566212296648,
         "homeName": "Sayqal",
         "lastMission": {
-          "active": true
+          "zoneName": "Khalkhalah"
         },
-        "lastStateDuration": 3809,
+        "lastStateDuration": 819,
         "position": {
-          "x": -150720.84680691,
-          "y": 694.96429443359,
-          "z": 118187.21866727
+          "x": -217319.00761046,
+          "y": 2167.1207508416,
+          "z": 38830.121798725
         },
-        "productName": "sayqal-cas-red",
+        "productName": "sayqal-sead-red",
         "state": "inair",
-        "type": "bai"
+        "targetName": "Khalkhalah",
+        "type": "sead"
+      },
+      "shahba-supply-blue": {
+        "heading": -2.2349020111461,
+        "homeName": "Shahba",
+        "lastMission": {
+          "zoneName": "Khalkhalah"
+        },
+        "lastStateDuration": 1079,
+        "position": {
+          "x": -232821.48382794,
+          "y": 1000.4895768275,
+          "z": 63796.26262949
+        },
+        "productName": "shahba-supply-blue",
+        "state": "enroute",
+        "targetName": "Khalkhalah",
+        "type": "supply_convoy"
+      },
+      "thalah-cas-blue-1": {
+        "heading": 1.0077875753688,
+        "homeName": "Thalah",
+        "lastMission": {
+          "zoneName": "Damascus"
+        },
+        "lastStateDuration": 1529,
+        "position": {
+          "x": -258618.13912928,
+          "y": 726.54082903272,
+          "z": 39515.977697576
+        },
+        "productName": "thalah-cas-blue-1",
+        "state": "inair",
+        "targetName": "Damascus",
+        "type": "cas"
       },
       "thalah-supply-blue-1": {
-        "heading": 0.30784147454996,
+        "heading": 0.39374780926851,
         "homeName": "Thalah",
         "lastMission": {
           "zoneName": "Khalkhalah"
         },
-        "lastStateDuration": 569,
+        "lastStateDuration": 59,
         "position": {
-          "x": -239247.48358297,
-          "y": 822.16863836215,
-          "z": 48370.436250911
+          "x": -256717.92342592,
+          "y": 737.18495142275,
+          "z": 41093.372147837
         },
         "productName": "thalah-supply-blue-1",
         "state": "inair",
         "targetName": "Khalkhalah",
         "type": "supply_air"
       },
-      "thalah-supply-blue-2": {
-        "heading": 2.6256227249991,
-        "homeName": "Thalah",
-        "lastMission": {
-          "zoneName": "Khalkhalah"
-        },
-        "lastStateDuration": 889,
-        "position": {
-          "x": -226822.65548838,
-          "y": 794.02418255404,
-          "z": 54670.506017315
-        },
-        "productName": "thalah-supply-blue-2",
-        "state": "inair",
-        "targetName": "Khalkhalah",
-        "type": "supply_air"
-      },
-      "tiberias-supply2-blue": {
-        "heading": 2.1396275020607,
-        "homeName": "Tiberias",
-        "lastMission": {
-          "zoneName": "Rosh Pina"
-        },
-        "lastStateDuration": 349,
-        "position": {
-          "x": -244914.23769919,
-          "y": 3.001003099489,
-          "z": -42661.34983614
-        },
-        "productName": "tiberias-supply2-blue",
-        "state": "started",
-        "targetName": "Rosh Pina",
-        "type": "supply_convoy"
-      },
       "tiyas-cas-red": {
-        "heading": -2.0805002778687,
+        "heading": -0.065339623651592,
         "homeName": "Tiyas",
         "lastMission": {
-          "zoneName": "Qaraoun"
+          "active": true
         },
-        "lastStateDuration": 649,
+        "lastStateDuration": 2459,
         "position": {
-          "x": -112259.42331301,
-          "y": 4999.9998230885,
-          "z": 65098.278961877
+          "x": -187178.48942225,
+          "y": 1906.6322039805,
+          "z": -41647.443178099
         },
         "productName": "tiyas-cas-red",
         "state": "inair",
-        "targetName": "Qaraoun",
-        "type": "cas"
+        "type": "bai"
       },
-      "tiyas-patrol-red": {
-        "heading": 1.1881831075314,
+      "tiyas-sead-red": {
+        "heading": -2.5541912235934,
         "homeName": "Tiyas",
         "lastMission": {
-          "zone1name": "Maqne"
+          "zoneName": "Khalkhalah"
         },
-        "lastStateDuration": 2329,
+        "lastStateDuration": 599,
         "position": {
-          "x": -189407.34082698,
-          "y": 1409.1553122098,
-          "z": -20674.65255008
+          "x": -146896.30349486,
+          "y": 8019.2336625008,
+          "z": 114750.76372082
         },
-        "productName": "tiyas-patrol-red",
+        "productName": "tiyas-sead-red",
         "state": "inair",
-        "targetName": "Maqne",
-        "type": "patrol"
+        "targetName": "Khalkhalah",
+        "type": "sead"
       },
       "tripoli-supply-red": {
-        "heading": -2.3696544609149,
+        "heading": -2.8073496006453,
         "homeName": "Tripoli",
         "lastMission": {
           "zoneName": "Wujah"
         },
-        "lastStateDuration": 13809,
+        "lastStateDuration": 14669,
         "position": {
-          "x": -66600.028628868,
-          "y": 13.112115665389,
-          "z": -8500.7594110694
+          "x": -64636.887158389,
+          "y": 25.719441470875,
+          "z": -7823.7327830251
         },
         "productName": "tripoli-supply-red",
         "state": "enroute",
@@ -779,50 +899,33 @@
         "type": "supply_convoy"
       },
       "tyre-supply-blue": {
-        "heading": 0.032882685986675,
+        "heading": -0.25852021608846,
         "homeName": "Tyre",
         "lastMission": {
-          "zoneName": "Nebatieh"
+          "zoneName": "Saida"
         },
         "lastStateDuration": 39,
         "position": {
-          "x": -191800.08742104,
-          "y": 11.499036304022,
-          "z": -69898.01297504
+          "x": -191918.51938911,
+          "y": 10.288984667633,
+          "z": -69919.543054778
         },
         "productName": "tyre-supply-blue",
         "state": "started",
-        "targetName": "Nebatieh",
+        "targetName": "Saida",
         "type": "supply_convoy"
       },
-      "wujah-patrol-red": {
-        "heading": -0.91385706400615,
-        "homeName": "Wujah",
-        "lastMission": {
-          "zone1name": "Qaraoun"
-        },
-        "lastStateDuration": 959,
-        "position": {
-          "x": -189008.45435071,
-          "y": 2664.6966082977,
-          "z": -38077.881382384
-        },
-        "productName": "wujah-patrol-red",
-        "state": "inair",
-        "targetName": "Qaraoun",
-        "type": "patrol"
-      },
       "wujah-supply-red": {
-        "heading": 0.82030417238778,
+        "heading": 0.79565171447355,
         "homeName": "Wujah",
         "lastMission": {
           "zoneName": "Beirut"
         },
-        "lastStateDuration": 49399,
+        "lastStateDuration": 15319,
         "position": {
-          "x": -123777.10449311,
-          "y": 11.597036394603,
-          "z": -37468.39141552
+          "x": -123818.30124437,
+          "y": 10.849450833809,
+          "z": -37521.713324062
         },
         "productName": "wujah-supply-red",
         "state": "enroute",
@@ -833,28 +936,28 @@
     "battlefieldManager": {
       "overridePriorityZones": [],
       "priorityZones": {
-        "1": "Kiryat",
-        "2": "Wujah"
+        "1": "Jabah",
+        "2": "Damascus"
       }
     },
     "csarTracker": {
-      "NimbleLlama": {
-        "name": "NimbleLlama",
+      "LionPotato": {
+        "name": "LionPotato",
         "pos": {
-          "x": -182967.375,
-          "y": 594.45198876958,
-          "z": 61345.265625
+          "x": -157021.234375,
+          "y": 600.38790185552,
+          "z": 59426.765625
         },
         "remainingTime": 740
       },
-      "ThunderWombat": {
-        "name": "ThunderWombat",
+      "PhoenixLlama": {
+        "name": "PhoenixLlama",
         "pos": {
-          "x": -183840.03125,
-          "y": 594.89955957036,
-          "z": 64274.6015625
+          "x": -166511.421875,
+          "y": 695.44033105473,
+          "z": 33335.1796875
         },
-        "remainingTime": 2590
+        "remainingTime": 920
       }
     },
     "squadTracker": [],
@@ -865,71 +968,38 @@
           "acre-fuel-blue": true,
           "acre-tent-blue": true
         },
-        "closestEnemyDist": 92245.61318615,
+        "closestEnemyDist": 125189.319898,
         "currentBuild": {
           "name": "acre-transfer-blue",
-          "progress": 428,
+          "progress": 544,
           "side": 2
         },
-        "distToFront": 3,
+        "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Acre",
-        "resource": 579,
+        "resource": 37,
         "revealTime": 0,
         "side": 2
       },
       "Akrotiri": {
         "built": {
           "akrotiri-com-blue": true,
-          "akrotiri-ewr-blue": [
-            "FPS-117"
-          ],
           "akrotiri-fueltank-blue": true,
           "akrotiri-hq-blue": true,
-          "akrotiri-infantry-blue": [
-            "M-1 Abrams",
-            "M-2 Bradley",
-            "M-2 Bradley",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "M1043 HMMWV Armament",
-            "M1043 HMMWV Armament"
-          ],
-          "akrotiri-mission-command-blue": true,
-          "akrotiri-sam-blue": [
-            "Hawk ln",
-            "Hawk ln",
-            "M 818",
-            "M 818",
-            "Hawk ln",
-            "Hawk ln",
-            "Hawk ln",
-            "Hawk tr",
-            "Hawk sr",
-            "Hawk pcp"
-          ],
-          "akrotiri-sam2-blue": [
-            "M48 Chaparral",
-            "M48 Chaparral",
-            "M 818",
-            "Gepard",
-            "Gepard"
-          ]
+          "akrotiri-mission-command-blue": true
         },
         "closestEnemyDist": 250158.07835841,
         "currentMissionBuild": {
-          "name": "akrotiri-strike-blue",
-          "progress": 21.6,
+          "name": "akrotiri-cas-blue",
+          "progress": 171.6,
           "side": 2
         },
-        "distToFront": 4,
+        "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Akrotiri",
-        "resource": 50000,
+        "resource": 40000,
         "revealTime": 0,
         "side": 2
       },
@@ -941,15 +1011,15 @@
         },
         "closestEnemyDist": 179892.70952578,
         "currentMissionBuild": {
-          "name": "alassad-cas-red",
-          "progress": 103.8,
+          "name": "alassad-strike-red",
+          "progress": 100.44,
           "side": 1
         },
         "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Al Assad",
-        "resource": 43155,
+        "resource": 41231,
         "revealTime": 0,
         "side": 1
       },
@@ -980,22 +1050,22 @@
             "5p73 s-125 ln"
           ]
         },
-        "closestEnemyDist": 61553.38514417,
+        "closestEnemyDist": 51035.391551237,
         "currentBuild": {
           "name": "aldumayr-supply-red-1",
-          "progress": 482,
+          "progress": 410,
           "side": 1
         },
         "currentMissionBuild": {
-          "name": "aldumayr-strike-red",
-          "progress": 264.6,
+          "name": "aldumayr-patrol-red",
+          "progress": 221.4,
           "side": 1
         },
-        "distToFront": 2,
+        "distToFront": 1,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Al Dumayr",
-        "resource": 49455,
+        "resource": 44102,
         "revealTime": 0,
         "side": 1
       },
@@ -1025,17 +1095,22 @@
             "5p73 s-125 ln"
           ]
         },
-        "closestEnemyDist": 129701.35943888,
+        "closestEnemyDist": 125360.37505216,
+        "currentBuild": {
+          "name": "alqusayr-transfer-red",
+          "progress": 984,
+          "side": 1
+        },
         "currentMissionBuild": {
-          "name": "alqusayr-sead-red",
-          "progress": 178.2,
+          "name": "alqusayr-strike-red",
+          "progress": 101.52,
           "side": 1
         },
         "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Al Qusayr",
-        "resource": 47943,
+        "resource": 48888,
         "revealTime": 0,
         "side": 1
       },
@@ -1045,12 +1120,12 @@
           "alqutayfah-fuel-red": true,
           "alqutayfah-tent-red": true
         },
-        "closestEnemyDist": 60619.522390831,
-        "distToFront": 2,
+        "closestEnemyDist": 44719.096298126,
+        "distToFront": 1,
         "extraBuildResources": 0,
-        "mode": "export",
+        "mode": "supply",
         "name": "Al Qutayfah",
-        "resource": 7673,
+        "resource": 20000,
         "revealTime": 0,
         "side": 1
       },
@@ -1060,17 +1135,17 @@
           "alpha-fuel-blue": true,
           "alpha-tent-blue": true
         },
-        "closestEnemyDist": 97802.455184493,
+        "closestEnemyDist": 98904.562899501,
         "currentBuild": {
           "name": "alpha-transfer-blue",
-          "progress": 882,
+          "progress": 40,
           "side": 2
         },
         "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Alpha",
-        "resource": 786,
+        "resource": 68,
         "revealTime": 0,
         "side": 2
       },
@@ -1101,26 +1176,26 @@
             "S_75M_Volhov",
             "S_75M_Volhov",
             "S_75M_Volhov",
-            "RD_75",
             "p-19 s-125 sr"
           ]
         },
-        "closestEnemyDist": 93061.960005381,
+        "closestEnemyDist": 77208.944767909,
         "currentBuild": {
-          "name": "annasiriyah-transfer-red",
-          "progress": 364,
+          "isRepair": true,
+          "name": "annasiriyah-sam-red",
+          "progress": 774,
           "side": 1
         },
         "currentMissionBuild": {
           "name": "annasiriyah-strike-red",
-          "progress": 29.52,
+          "progress": 143.64,
           "side": 1
         },
-        "distToFront": 3,
+        "distToFront": 2,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "An Nasiriyah",
-        "resource": 94,
+        "resource": 7460,
         "revealTime": 0,
         "side": 1
       },
@@ -1131,16 +1206,11 @@
           "arrastan-tent-red": true
         },
         "closestEnemyDist": 166214.30393991,
-        "currentBuild": {
-          "name": "arrastan-transfer-red",
-          "progress": 1123,
-          "side": 1
-        },
         "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Ar Rastan",
-        "resource": 880,
+        "resource": 14,
         "revealTime": 0,
         "side": 1
       },
@@ -1155,7 +1225,7 @@
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Baniyas",
-        "resource": 19109,
+        "resource": 19431,
         "revealTime": 0,
         "side": 1
       },
@@ -1169,36 +1239,29 @@
             "M-2 Bradley",
             "Soldier M4 GRG",
             "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier RPG",
             "Soldier stinger",
             "Patriot cp",
-            "Patriot str",
             "M 818",
             "M 818",
             "Patriot ln",
             "Patriot ln",
-            "Patriot ln",
-            "Patriot ln",
             "Patriot str",
-            "Patriot str",
-            "Patriot str",
-            "Patriot EPP",
             "Patriot ECS",
             "Patriot AMG"
-          ]
+          ],
+          "beirut-fueltank-blue": true
         },
-        "closestEnemyDist": 36002.282081639,
+        "closestEnemyDist": 46674.859381445,
         "currentBuild": {
-          "name": "beirut-fueltank-blue",
-          "progress": 350,
+          "name": "beirut-mission-command-blue",
+          "progress": 1170,
           "side": 2
         },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Beirut",
-        "resource": 49024,
+        "resource": 45050,
         "revealTime": 0,
         "side": 2
       },
@@ -1208,17 +1271,17 @@
           "beitshean-fuel-blue": true,
           "beitshean-tent-blue": true
         },
-        "closestEnemyDist": 119428.53302839,
+        "closestEnemyDist": 123636.32734125,
         "currentBuild": {
           "name": "beitshean-transfer-blue",
-          "progress": 763,
+          "progress": 56,
           "side": 2
         },
-        "distToFront": 3,
+        "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Beit Shean",
-        "resource": 77,
+        "resource": 63,
         "revealTime": 0,
         "side": 2
       },
@@ -1244,11 +1307,16 @@
           "busra-tent-blue": true
         },
         "closestEnemyDist": 84914.671501823,
+        "currentBuild": {
+          "name": "busra-transfer-blue",
+          "progress": 696,
+          "side": 2
+        },
         "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Busra",
-        "resource": 14425,
+        "resource": 14667,
         "revealTime": 0,
         "side": 2
       },
@@ -1259,16 +1327,11 @@
           "charlie-tent-blue": true
         },
         "closestEnemyDist": 77375.23048403,
-        "currentBuild": {
-          "name": "charlie-supply-blue",
-          "progress": 1033,
-          "side": 2
-        },
         "distToFront": 2,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Charlie",
-        "resource": 7171,
+        "resource": 6436,
         "revealTime": 0,
         "side": 2
       },
@@ -1287,41 +1350,19 @@
             "Paratrooper RPG-16",
             "Paratrooper RPG-16",
             "Infantry AK ver3"
-          ],
-          "damascus-mission-command-red": true,
-          "damascus-sam-red": [
-            "SA-11 Buk SR 9S18M1",
-            "SA-11 Buk LN 9A310M1",
-            "SA-11 Buk LN 9A310M1",
-            "SA-11 Buk LN 9A310M1",
-            "SA-11 Buk LN 9A310M1",
-            "SA-11 Buk LN 9A310M1",
-            "SA-11 Buk SR 9S18M1",
-            "GAZ-66",
-            "GAZ-66",
-            "SA-11 Buk CC 9S470M1"
-          ],
-          "damascus-sam2-red": [
-            "Osa 9A33 ln",
-            "Ural-4320T"
           ]
         },
-        "closestEnemyDist": 36562.111968474,
+        "closestEnemyDist": 28193.418688106,
         "currentBuild": {
-          "name": "damascus-ewr-red",
-          "progress": 1105,
+          "name": "damascus-mission-command-red",
+          "progress": 117,
           "side": 1
         },
-        "currentMissionBuild": {
-          "name": "damascus-sead-red",
-          "progress": 119.4,
-          "side": 1
-        },
-        "distToFront": 1,
+        "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Damascus",
-        "resource": 48348,
+        "resource": 39112,
         "revealTime": 0,
         "side": 1
       },
@@ -1334,7 +1375,6 @@
             "M-2 Bradley",
             "M-2 Bradley",
             "Patriot ln",
-            "Patriot str",
             "Patriot AMG"
           ],
           "delta-fuel-blue": true,
@@ -1355,7 +1395,7 @@
         "extraBuildResources": 0,
         "mode": "supply",
         "name": "Delta",
-        "resource": 20000,
+        "resource": 15998,
         "revealTime": 0,
         "side": 2
       },
@@ -1363,25 +1403,19 @@
         "built": {
           "duma-ammo-red": true,
           "duma-fuel-red": true,
-          "duma-infantry-red": [
-            "BTR_D",
-            "BTR_D",
-            "Infantry AK ver2",
-            "Infantry AK",
-            "Infantry AK",
-            "Paratrooper RPG-16",
-            "Paratrooper RPG-16",
-            "SA-18 Igla manpad",
-            "SA-18 Igla manpad"
-          ],
           "duma-tent-red": true
         },
-        "closestEnemyDist": 34886.438337519,
-        "distToFront": 1,
+        "closestEnemyDist": 19390.626026703,
+        "currentBuild": {
+          "name": "duma-infantry-red",
+          "progress": 1359,
+          "side": 1
+        },
+        "distToFront": 0,
         "extraBuildResources": 0,
-        "mode": "supply",
+        "mode": "normal",
         "name": "Duma",
-        "resource": 15346,
+        "resource": 19091,
         "revealTime": 0,
         "side": 1
       },
@@ -1392,11 +1426,16 @@
           "echo-tent-blue": true
         },
         "closestEnemyDist": 49935.931944482,
+        "currentBuild": {
+          "name": "echo-supply-blue",
+          "progress": 3306,
+          "side": 2
+        },
         "distToFront": 2,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Echo",
-        "resource": 4066,
+        "resource": 749,
         "revealTime": 0,
         "side": 2
       },
@@ -1407,11 +1446,16 @@
           "eltaebah-tent-blue": true
         },
         "closestEnemyDist": 82765.805670044,
+        "currentBuild": {
+          "name": "eltaebah-transfer-blue",
+          "progress": 696,
+          "side": 2
+        },
         "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "El Taebah",
-        "resource": 15252,
+        "resource": 17482,
         "revealTime": 0,
         "side": 2
       },
@@ -1424,14 +1468,14 @@
         "closestEnemyDist": 189629.40685159,
         "currentBuild": {
           "name": "elkorum-transfer-red",
-          "progress": 14,
+          "progress": 174,
           "side": 1
         },
         "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Elkorum",
-        "resource": 82,
+        "resource": 13,
         "revealTime": 0,
         "side": 1
       },
@@ -1444,14 +1488,14 @@
         "closestEnemyDist": 82888.954937708,
         "currentBuild": {
           "name": "etturra-transfer-blue",
-          "progress": 839,
+          "progress": 710,
           "side": 2
         },
         "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Et Turra",
-        "resource": 66,
+        "resource": 116,
         "revealTime": 0,
         "side": 2
       },
@@ -1461,7 +1505,7 @@
           "foxtrot-fuel-red": true,
           "foxtrot-tent-red": true
         },
-        "closestEnemyDist": 107415.40462462,
+        "closestEnemyDist": 98077.441124347,
         "distToFront": 2,
         "extraBuildResources": 0,
         "mode": "export",
@@ -1472,29 +1516,26 @@
       },
       "Ghabagheb": {
         "built": {
-          "ghabagheb-defense-blue": [
+          "ghabagheb-infantry-blue": [
+            "Soldier stinger",
             "M-1 Abrams",
             "M-1 Abrams",
-            "M-2 Bradley",
-            "M-2 Bradley",
-            "Patriot str",
-            "Patriot EPP",
-            "Patriot AMG"
+            "Soldier M4 GRG",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG"
           ],
           "ghabagheb-powerplant1-blue": true,
+          "ghabagheb-powerplant2-blue": true,
           "ghabagheb-tent-blue": true
         },
         "closestEnemyDist": 24103.504542582,
-        "currentBuild": {
-          "name": "ghabagheb-powerplant2-blue",
-          "progress": 321,
-          "side": 2
-        },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Ghabagheb",
-        "resource": 17165,
+        "resource": 17746,
         "revealTime": 0,
         "side": 2
       },
@@ -1504,17 +1545,17 @@
           "golf-fuel-red": true,
           "golf-tent-red": true
         },
-        "closestEnemyDist": 130747.86998791,
+        "closestEnemyDist": 114677.01540594,
         "currentBuild": {
           "name": "golf-transfer-red",
-          "progress": 239,
+          "progress": 9,
           "side": 1
         },
-        "distToFront": 4,
+        "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Golf",
-        "resource": 73,
+        "resource": 44,
         "revealTime": 0,
         "side": 1
       },
@@ -1527,19 +1568,19 @@
         "closestEnemyDist": 182228.62345309,
         "currentBuild": {
           "name": "hama-transfer-red",
-          "progress": 939,
+          "progress": 164,
           "side": 1
         },
         "currentMissionBuild": {
-          "name": "hama-strike-red",
-          "progress": 272.64,
+          "name": "hama-cas-red",
+          "progress": 107.16,
           "side": 1
         },
         "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Hama",
-        "resource": 52,
+        "resource": 835,
         "revealTime": 0,
         "side": 1
       },
@@ -1554,7 +1595,7 @@
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Hawash",
-        "resource": 19660,
+        "resource": 19922,
         "revealTime": 0,
         "side": 1
       },
@@ -1564,17 +1605,17 @@
           "homs-refinery-red": true,
           "homs-tent-red": true
         },
-        "closestEnemyDist": 151186.22827197,
+        "closestEnemyDist": 147491.6973295,
         "currentBuild": {
           "name": "homs-transfer-red",
-          "progress": 124,
+          "progress": 164,
           "side": 1
         },
         "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Homs",
-        "resource": 19292,
+        "resource": 19836,
         "revealTime": 0,
         "side": 1
       },
@@ -1584,12 +1625,12 @@
           "hotel-fuel-red": true,
           "hotel-tent-red": true
         },
-        "closestEnemyDist": 154102.73038673,
-        "distToFront": 4,
+        "closestEnemyDist": 148810.32098424,
+        "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Hotel",
-        "resource": 19585,
+        "resource": 19899,
         "revealTime": 0,
         "side": 1
       },
@@ -1643,16 +1684,21 @@
           ]
         },
         "closestEnemyDist": 104640.92228563,
+        "currentBuild": {
+          "name": "hussein-transfer-blue",
+          "progress": 348,
+          "side": 2
+        },
         "currentMissionBuild": {
-          "name": "hussein-strike-blue",
-          "progress": 236.16,
+          "name": "hussein-cas-blue",
+          "progress": 43.2,
           "side": 2
         },
         "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Hussein",
-        "resource": 40478,
+        "resource": 48049,
         "revealTime": 0,
         "side": 2
       },
@@ -1662,12 +1708,12 @@
           "india-fuel-red": true,
           "india-tent-red": true
         },
-        "closestEnemyDist": 167088.90546581,
-        "distToFront": 5,
+        "closestEnemyDist": 151023.58004008,
+        "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "India",
-        "resource": 19246,
+        "resource": 18774,
         "revealTime": 0,
         "side": 1
       },
@@ -1680,14 +1726,14 @@
         "closestEnemyDist": 97913.336178829,
         "currentBuild": {
           "name": "irbid-transfer-blue",
-          "progress": 835,
+          "progress": 884,
           "side": 2
         },
         "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Irbid",
-        "resource": 169,
+        "resource": 126,
         "revealTime": 0,
         "side": 2
       },
@@ -1695,24 +1741,14 @@
         "built": {
           "jabah-ammo-blue": true,
           "jabah-fuel-blue": true,
-          "jabah-infantry-blue": [
-            "Soldier stinger",
-            "M-1 Abrams",
-            "M-1 Abrams",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG"
-          ],
           "jabah-tent-blue": true
         },
-        "closestEnemyDist": 44611.889213771,
+        "closestEnemyDist": 51023.748929935,
         "distToFront": 1,
         "extraBuildResources": 0,
         "mode": "supply",
         "name": "Jabah",
-        "resource": 14342,
+        "resource": 11317,
         "revealTime": 0,
         "side": 2
       },
@@ -1751,16 +1787,11 @@
           "jasim-tent-blue": true
         },
         "closestEnemyDist": 49612.531517446,
-        "currentBuild": {
-          "name": "jasim-supply-blue",
-          "progress": 2361,
-          "side": 2
-        },
         "distToFront": 1,
         "extraBuildResources": 0,
         "mode": "supply",
         "name": "Jasim",
-        "resource": 16426,
+        "resource": 11067,
         "revealTime": 0,
         "side": 2
       },
@@ -1770,42 +1801,57 @@
           "juliett-fuel-red": true,
           "juliett-tent-red": true
         },
-        "closestEnemyDist": 185875.34923926,
+        "closestEnemyDist": 177069.74496903,
         "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Juliett",
-        "resource": 1,
+        "resource": 12,
         "revealTime": 0,
         "side": 1
       },
       "Khalkhalah": {
         "built": {
           "khalkhalah-com-blue": true,
+          "khalkhalah-fueltank-blue": true,
+          "khalkhalah-infantry-blue": [
+            "Soldier stinger",
+            "M-1 Abrams",
+            "M-1 Abrams",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG",
+            "Soldier M4 GRG"
+          ],
           "khalkhalah-mission-command-blue": true,
           "khalkhalah-sam-blue": [
+            "Hawk ln",
+            "Hawk ln",
             "M 818",
             "M 818",
+            "Hawk ln",
+            "Hawk ln",
             "Hawk ln",
             "Hawk pcp"
           ]
         },
         "closestEnemyDist": 24486.829061019,
         "currentBuild": {
-          "name": "khalkhalah-infantry-blue",
-          "progress": 1473,
+          "name": "khalkhalah-supply-blue-1",
+          "progress": 609,
           "side": 2
         },
         "currentMissionBuild": {
-          "name": "khalkhalah-strike-blue",
-          "progress": 135.72,
+          "name": "khalkhalah-patrol-blue",
+          "progress": 43.2,
           "side": 2
         },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Khalkhalah",
-        "resource": 30422,
+        "resource": 40284,
         "revealTime": 0,
         "side": 2
       },
@@ -1833,12 +1879,12 @@
           ],
           "khanalsheh-tent-blue": true
         },
-        "closestEnemyDist": 16087.052203597,
-        "distToFront": 0,
+        "closestEnemyDist": 33070.744033507,
+        "distToFront": 1,
         "extraBuildResources": 0,
-        "mode": "normal",
+        "mode": "supply",
         "name": "Khan Alsheh",
-        "resource": 15742,
+        "resource": 1804,
         "revealTime": 0,
         "side": 2
       },
@@ -1853,7 +1899,7 @@
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Khirbet",
-        "resource": 20000,
+        "resource": 19103,
         "revealTime": 0,
         "side": 2
       },
@@ -1865,26 +1911,22 @@
           "kilo-tent-red": true
         },
         "closestEnemyDist": 159276.17068657,
+        "currentBuild": {
+          "name": "kilo-transfer-red",
+          "progress": 164,
+          "side": 1
+        },
         "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Kilo",
-        "resource": 18272,
+        "resource": 19624,
         "revealTime": 0,
         "side": 1
       },
       "Kiryat": {
         "built": {
           "kiryat-com-blue": true,
-          "kiryat-defense-blue": [
-            "M-1 Abrams",
-            "M-1 Abrams",
-            "M-2 Bradley",
-            "M-2 Bradley",
-            "Patriot ln",
-            "Patriot ln",
-            "Patriot AMG"
-          ],
           "kiryat-fueltank-blue": true,
           "kiryat-infantry-blue": [
             "M-1 Abrams",
@@ -1906,27 +1948,22 @@
             "Hawk ln",
             "Hawk ln",
             "Hawk ln",
-            "Hawk tr",
             "Hawk sr",
             "Hawk pcp"
           ]
         },
-        "closestEnemyDist": 40933.129085336,
+        "closestEnemyDist": 69225.940737414,
         "currentBuild": {
-          "name": "kiryat-supply-blue",
-          "progress": 1365,
+          "isRepair": true,
+          "name": "kiryat-sam-blue",
+          "progress": 620,
           "side": 2
         },
-        "currentMissionBuild": {
-          "name": "kiryat-cas-blue",
-          "progress": 190.8,
-          "side": 2
-        },
-        "distToFront": 0,
+        "distToFront": 1,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Kiryat",
-        "resource": 9204,
+        "resource": 20123,
         "revealTime": 0,
         "side": 2
       },
@@ -1934,25 +1971,19 @@
         "built": {
           "madaya-ammo-red": true,
           "madaya-fuel-red": true,
-          "madaya-infantry-red": [
-            "BTR_D",
-            "T-90",
-            "T-90",
-            "Infantry AK ver2",
-            "Infantry AK",
-            "Infantry AK",
-            "Paratrooper RPG-16",
-            "Infantry AK ver3",
-            "SA-18 Igla manpad"
-          ],
           "madaya-tent-red": true
         },
-        "closestEnemyDist": 35209.981536089,
+        "closestEnemyDist": 26036.170757178,
+        "currentBuild": {
+          "name": "madaya-infantry-red",
+          "progress": 1854,
+          "side": 1
+        },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Madaya",
-        "resource": 17688,
+        "resource": 19919,
         "revealTime": 0,
         "side": 1
       },
@@ -1964,19 +1995,17 @@
           "maqne-pump4-red": true,
           "maqne-tent-red": true
         },
-        "closestEnemyDist": 71772.997676193,
+        "closestEnemyDist": 66012.962854186,
         "distToFront": 1,
         "extraBuildResources": 0,
         "mode": "supply",
         "name": "Maqne",
-        "resource": 20000,
+        "resource": 19884,
         "revealTime": 0,
         "side": 1
       },
       "Marj": {
         "built": {
-          "marj-com-red": true,
-          "marj-fueltank-red": true,
           "marj-infantry-red": [
             "BTR_D",
             "BTR_D",
@@ -1991,13 +2020,8 @@
           ],
           "marj-mission-command-red": true,
           "marj-sam-red": [
-            "SNR_75V",
             "Ural-4320T",
             "Ural-4320T",
-            "S_75M_Volhov",
-            "S_75M_Volhov",
-            "S_75M_Volhov",
-            "S_75M_Volhov",
             "S_75M_Volhov",
             "S_75M_Volhov",
             "S_75M_Volhov"
@@ -2007,63 +2031,46 @@
         "currentBuild": {
           "isRepair": true,
           "name": "marj-sam-red",
-          "progress": 1075,
+          "progress": 1242,
+          "side": 1
+        },
+        "currentMissionBuild": {
+          "name": "marj-cas-red-2",
+          "progress": 24.84,
           "side": 1
         },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Marj",
-        "resource": 49447,
+        "resource": 31330,
         "revealTime": 0,
         "side": 1
       },
       "Mezzeh": {
         "built": {
-          "mezzeh-com-red": true,
-          "mezzeh-defense-red": [
-            "Infantry AK ver2",
-            "Infantry AK",
-            "Infantry AK ver3",
-            "Paratrooper RPG-16",
-            "SA-18 Igla manpad"
-          ],
-          "mezzeh-infantry-red": [
-            "BTR_D",
-            "T-90",
-            "T-90",
-            "Infantry AK ver2",
-            "Infantry AK",
-            "Infantry AK",
-            "Paratrooper RPG-16",
-            "Infantry AK ver3",
-            "SA-18 Igla manpad"
-          ],
-          "mezzeh-sam-red": [
-            "Ural-4320T",
-            "Ural-4320T",
-            "S_75M_Volhov",
-            "S_75M_Volhov",
-            "S_75M_Volhov",
-            "S_75M_Volhov",
-            "S_75M_Volhov",
-            "RD_75",
-            "p-19 s-125 sr"
-          ]
+          "mezzeh-com-blue": true,
+          "mezzeh-fueltank-blue": true,
+          "mezzeh-mission-command-blue": true
         },
-        "closestEnemyDist": 16087.052203597,
+        "closestEnemyDist": 19390.626026703,
         "currentBuild": {
-          "name": "mezzeh-fueltank-red",
-          "progress": 535,
-          "side": 1
+          "name": "mezzeh-sam-blue",
+          "progress": 2470,
+          "side": 2
+        },
+        "currentMissionBuild": {
+          "name": "mezzeh-sead-blue",
+          "progress": 19.2,
+          "side": 2
         },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Mezzeh",
-        "resource": 48635,
+        "resource": 25412,
         "revealTime": 0,
-        "side": 1
+        "side": 2
       },
       "Mine": {
         "built": {
@@ -2073,11 +2080,11 @@
           "mine-tent-red": true
         },
         "closestEnemyDist": 184590.86169661,
-        "distToFront": 5,
+        "distToFront": 4,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Mine",
-        "resource": 20000,
+        "resource": 19392,
         "revealTime": 0,
         "side": 1
       },
@@ -2088,16 +2095,11 @@
           "muhradah-tent-red": true
         },
         "closestEnemyDist": 186376.34291819,
-        "currentBuild": {
-          "name": "muhradah-transfer-red",
-          "progress": 22,
-          "side": 1
-        },
         "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Muhradah",
-        "resource": 86,
+        "resource": 1,
         "revealTime": 0,
         "side": 1
       },
@@ -2107,50 +2109,32 @@
           "naqoura-fuel-blue": true,
           "naqoura-tent-blue": true
         },
-        "closestEnemyDist": 75325.772117461,
+        "closestEnemyDist": 109816.51457238,
         "currentBuild": {
-          "name": "naqoura-supply-blue-1",
-          "progress": 108,
+          "name": "naqoura-transfer-blue",
+          "progress": 870,
           "side": 2
         },
-        "distToFront": 2,
+        "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Naqoura",
-        "resource": 4,
+        "resource": 16535,
         "revealTime": 0,
         "side": 2
       },
       "Nebatieh": {
         "built": {
           "nebatieh-ammo-blue": true,
-          "nebatieh-defense-blue": [
-            "M-1 Abrams",
-            "M-1 Abrams",
-            "M-2 Bradley",
-            "M-2 Bradley",
-            "Patriot ECS",
-            "Patriot AMG"
-          ],
           "nebatieh-fuel-blue": true,
-          "nebatieh-infantry-blue": [
-            "Soldier stinger",
-            "M-1 Abrams",
-            "M-1 Abrams",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG"
-          ],
           "nebatieh-tent-blue": true
         },
-        "closestEnemyDist": 30701.166398397,
-        "distToFront": 0,
+        "closestEnemyDist": 65691.364921807,
+        "distToFront": 1,
         "extraBuildResources": 0,
-        "mode": "normal",
+        "mode": "supply",
         "name": "Nebatieh",
-        "resource": 6963,
+        "resource": 12367,
         "revealTime": 0,
         "side": 2
       },
@@ -2160,36 +2144,41 @@
           "palmyra-fueltank-red": true,
           "palmyra-mission-command-red": true
         },
-        "closestEnemyDist": 230988.34168721,
+        "closestEnemyDist": 227417.46015378,
         "currentMissionBuild": {
-          "name": "palmyra-sead-red",
-          "progress": 168.6,
+          "name": "palmyra-strike-red",
+          "progress": 49.68,
           "side": 1
         },
-        "distToFront": 7,
+        "distToFront": 6,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Palmyra",
-        "resource": 40152,
+        "resource": 1293,
         "revealTime": 0,
         "side": 1
       },
       "Qaraoun": {
         "built": {
-          "qaraoun-defense-blue": [
-            "M-1 Abrams",
-            "M-1 Abrams",
+          "qaraoun-farm1-blue": true,
+          "qaraoun-infantry-blue": [
+            "M1045 HMMWV TOW",
             "M-2 Bradley"
           ]
         },
-        "closestEnemyDist": 30701.166398397,
+        "closestEnemyDist": 36322.786717151,
+        "currentBuild": {
+          "name": "qaraoun-farm3-blue",
+          "progress": 1230,
+          "side": 2
+        },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Qaraoun",
-        "resource": 19991,
+        "resource": 19990,
         "revealTime": 0,
-        "side": 0
+        "side": 2
       },
       "Racetrack": {
         "built": {
@@ -2197,66 +2186,33 @@
           "racetrack-fuel-red": true,
           "racetrack-tent-red": true
         },
-        "closestEnemyDist": 210813.58594344,
-        "distToFront": 6,
+        "closestEnemyDist": 208913.48492094,
+        "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Racetrack",
-        "resource": 19858,
+        "resource": 19210,
         "revealTime": 0,
         "side": 1
       },
       "Ramat David": {
         "built": {
           "ramatdavid-com-blue": true,
-          "ramatdavid-ewr-blue": [
-            "FPS-117"
-          ],
           "ramatdavid-fueltank-blue": true,
           "ramatdavid-hq-blue": true,
-          "ramatdavid-infantry-blue": [
-            "M-1 Abrams",
-            "M-2 Bradley",
-            "M-2 Bradley",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "M1043 HMMWV Armament",
-            "M1043 HMMWV Armament"
-          ],
-          "ramatdavid-mission-command-blue": true,
-          "ramatdavid-sam-blue": [
-            "Hawk ln",
-            "Hawk ln",
-            "M 818",
-            "M 818",
-            "Hawk ln",
-            "Hawk ln",
-            "Hawk ln",
-            "Hawk tr",
-            "Hawk sr",
-            "Hawk pcp"
-          ],
-          "ramatdavid-sam2-blue": [
-            "M48 Chaparral",
-            "M48 Chaparral",
-            "M 818",
-            "Gepard",
-            "Gepard"
-          ]
+          "ramatdavid-mission-command-blue": true
         },
-        "closestEnemyDist": 255939.95882562,
+        "closestEnemyDist": 274142.09829399,
         "currentMissionBuild": {
           "name": "ramatdavid-cas-blue",
-          "progress": 129.72,
+          "progress": 26.4,
           "side": 2
         },
-        "distToFront": 3,
+        "distToFront": 4,
         "extraBuildResources": 0,
-        "mode": "normal",
+        "mode": "export",
         "name": "Ramat David",
-        "resource": 304,
+        "resource": 49999,
         "revealTime": 0,
         "side": 2
       },
@@ -2267,9 +2223,6 @@
             "Infantry AK ver2"
           ],
           "rayak-fueltank-red": true,
-          "rayak-infantry-blue": [
-            "Soldier M4 GRG"
-          ],
           "rayak-infantry-red": [
             "BTR_D",
             "T-90",
@@ -2295,14 +2248,14 @@
         "closestEnemyDist": 40004.345495985,
         "currentMissionBuild": {
           "name": "rayak-cas-red-1",
-          "progress": 61.8,
+          "progress": 99.36,
           "side": 1
         },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Rayak",
-        "resource": 49995,
+        "resource": 44793,
         "revealTime": 0,
         "side": 1
       },
@@ -2348,7 +2301,7 @@
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Rene",
-        "resource": 49630,
+        "resource": 49540,
         "revealTime": 0,
         "side": 1
       },
@@ -2358,59 +2311,44 @@
           "roshpina-fuel-blue": true,
           "roshpina-tent-blue": true
         },
-        "closestEnemyDist": 66703.173132924,
-        "currentBuild": {
-          "name": "roshpina-supply-blue-1",
-          "progress": 1697,
-          "side": 2
-        },
-        "distToFront": 1,
+        "closestEnemyDist": 89314.272970177,
+        "distToFront": 2,
         "extraBuildResources": 0,
-        "mode": "supply",
+        "mode": "export",
         "name": "Rosh Pina",
-        "resource": 18303,
+        "resource": 19343,
         "revealTime": 0,
         "side": 2
       },
       "Saida": {
         "built": {
-          "saida-ammo-blue": true,
           "saida-defense-blue": [
             "M-1 Abrams",
-            "M-1 Abrams",
-            "Soldier M4 GRG",
             "Patriot cp",
             "M 818",
-            "M 818",
-            "Patriot ln",
-            "Patriot ln",
-            "Patriot ECS",
-            "Patriot AMG"
+            "Patriot ln"
           ],
           "saida-fuel-blue": true,
           "saida-infantry-blue": [
             "M1045 HMMWV TOW",
             "Soldier stinger",
-            "Soldier stinger",
             "M-2 Bradley",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
             "Soldier M4 GRG",
             "M1043 HMMWV Armament"
           ],
           "saida-tent-blue": true
         },
-        "closestEnemyDist": 31682.121950161,
+        "closestEnemyDist": 65069.623263659,
         "currentBuild": {
-          "name": "saida-supply-blue",
-          "progress": 4021,
+          "name": "saida-ammo-blue",
+          "progress": 940,
           "side": 2
         },
         "distToFront": 1,
         "extraBuildResources": 0,
         "mode": "supply",
         "name": "Saida",
-        "resource": 14971,
+        "resource": 9843,
         "revealTime": 0,
         "side": 2
       },
@@ -2446,16 +2384,21 @@
           ]
         },
         "closestEnemyDist": 90731.295098494,
-        "currentMissionBuild": {
-          "name": "sayqal-strike-red",
-          "progress": 279,
+        "currentBuild": {
+          "name": "sayqal-supply-red-1",
+          "progress": 1312,
           "side": 1
         },
-        "distToFront": 3,
+        "currentMissionBuild": {
+          "name": "sayqal-patrol-red",
+          "progress": 111.24,
+          "side": 1
+        },
+        "distToFront": 2,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Sayqal",
-        "resource": 49787,
+        "resource": 49201,
         "revealTime": 0,
         "side": 1
       },
@@ -2491,16 +2434,11 @@
           "shahba-tent-blue": true
         },
         "closestEnemyDist": 49861.069078005,
-        "currentBuild": {
-          "name": "shahba-supply-blue",
-          "progress": 3554,
-          "side": 2
-        },
         "distToFront": 1,
         "extraBuildResources": 0,
         "mode": "supply",
         "name": "Shahba",
-        "resource": 0,
+        "resource": 8420,
         "revealTime": 0,
         "side": 2
       },
@@ -2508,19 +2446,49 @@
         "built": {
           "shayrat-com-red": true,
           "shayrat-fueltank-red": true,
-          "shayrat-mission-command-red": true
+          "shayrat-infantry-red": [
+            "BTR_D",
+            "T-90",
+            "T-90",
+            "Infantry AK ver2",
+            "Infantry AK",
+            "Infantry AK",
+            "Paratrooper RPG-16",
+            "Infantry AK ver3",
+            "SA-18 Igla manpad"
+          ],
+          "shayrat-mission-command-red": true,
+          "shayrat-sam-red": [
+            "SA-11 Buk SR 9S18M1",
+            "SA-11 Buk LN 9A310M1",
+            "SA-11 Buk LN 9A310M1",
+            "SA-11 Buk LN 9A310M1",
+            "SA-11 Buk LN 9A310M1",
+            "SA-11 Buk LN 9A310M1",
+            "2S6 Tunguska",
+            "SA-11 Buk SR 9S18M1",
+            "GAZ-66",
+            "GAZ-66",
+            "SA-11 Buk CC 9S470M1"
+          ],
+          "shayrat-sam2-red": [
+            "Strela-10M3",
+            "Ural-4320T",
+            "2S6 Tunguska",
+            "2S6 Tunguska"
+          ]
         },
-        "closestEnemyDist": 144985.82524959,
+        "closestEnemyDist": 129129.32763267,
         "currentBuild": {
           "name": "shayrat-transfer-red",
-          "progress": 2,
+          "progress": 835,
           "side": 1
         },
         "distToFront": 4,
         "extraBuildResources": 0,
-        "mode": "export",
+        "mode": "normal",
         "name": "Shayrat",
-        "resource": 11,
+        "resource": 4,
         "revealTime": 0,
         "side": 1
       },
@@ -2535,7 +2503,7 @@
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Tartus",
-        "resource": 19188,
+        "resource": 19366,
         "revealTime": 0,
         "side": 1
       },
@@ -2567,30 +2535,31 @@
             "Hawk ln",
             "Hawk ln",
             "M 818",
+            "M 818",
             "Hawk ln",
             "Hawk ln",
             "Hawk ln",
             "Hawk tr",
+            "Hawk sr",
             "Hawk pcp"
           ]
         },
         "closestEnemyDist": 64487.969656164,
         "currentBuild": {
-          "isRepair": true,
-          "name": "thalah-sam-blue",
-          "progress": 708,
+          "name": "thalah-supply-blue-2",
+          "progress": 2262,
           "side": 2
         },
         "currentMissionBuild": {
           "name": "thalah-cas-blue",
-          "progress": 115.2,
+          "progress": 188.4,
           "side": 2
         },
         "distToFront": 2,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Thalah",
-        "resource": 49733,
+        "resource": 48622,
         "revealTime": 0,
         "side": 2
       },
@@ -2603,12 +2572,12 @@
           "tiberias-factorytank3-blue": true,
           "tiberias-tent-blue": true
         },
-        "closestEnemyDist": 88278.130157359,
-        "distToFront": 2,
+        "closestEnemyDist": 103493.8249408,
+        "distToFront": 3,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Tiberias",
-        "resource": 19328,
+        "resource": 20000,
         "revealTime": 0,
         "side": 2
       },
@@ -2618,17 +2587,22 @@
           "tiyas-fueltank-red": true,
           "tiyas-mission-command-red": true
         },
-        "closestEnemyDist": 188138.91724507,
-        "currentMissionBuild": {
-          "name": "tiyas-sead-red",
-          "progress": 102.6,
+        "closestEnemyDist": 174030.95347894,
+        "currentBuild": {
+          "name": "tiyas-transfer-red",
+          "progress": 820,
           "side": 1
         },
-        "distToFront": 6,
+        "currentMissionBuild": {
+          "name": "tiyas-patrol-red",
+          "progress": 87.48,
+          "side": 1
+        },
+        "distToFront": 5,
         "extraBuildResources": 0,
         "mode": "export",
         "name": "Tiyas",
-        "resource": 48879,
+        "resource": 38913,
         "revealTime": 0,
         "side": 1
       },
@@ -2643,47 +2617,22 @@
         "extraBuildResources": 0,
         "mode": "supply",
         "name": "Tripoli",
-        "resource": 19401,
+        "resource": 19274,
         "revealTime": 0,
         "side": 1
       },
       "Tyre": {
         "built": {
           "tyre-ammo-blue": true,
-          "tyre-defense-blue": [
-            "M-1 Abrams",
-            "M-1 Abrams",
-            "M-2 Bradley",
-            "M-2 Bradley",
-            "Patriot cp",
-            "M 818",
-            "M 818",
-            "Patriot ln",
-            "Patriot ln",
-            "Patriot ln",
-            "Patriot str",
-            "Patriot EPP",
-            "Patriot ECS"
-          ],
           "tyre-fuel-blue": true,
-          "tyre-infantry-blue": [
-            "M1045 HMMWV TOW",
-            "Soldier stinger",
-            "Soldier stinger",
-            "M-2 Bradley",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "Soldier M4 GRG",
-            "M1043 HMMWV Armament"
-          ],
           "tyre-tent-blue": true
         },
-        "closestEnemyDist": 57406.527970451,
-        "distToFront": 1,
+        "closestEnemyDist": 93015.409175179,
+        "distToFront": 2,
         "extraBuildResources": 0,
-        "mode": "supply",
+        "mode": "export",
         "name": "Tyre",
-        "resource": 6935,
+        "resource": 18998,
         "revealTime": 0,
         "side": 2
       },
@@ -2714,11 +2663,16 @@
           ]
         },
         "closestEnemyDist": 53473.785786548,
+        "currentMissionBuild": {
+          "name": "wujah-patrol-red",
+          "progress": 240.84,
+          "side": 1
+        },
         "distToFront": 0,
         "extraBuildResources": 0,
         "mode": "normal",
         "name": "Wujah",
-        "resource": 47947,
+        "resource": 49717,
         "revealTime": 0,
         "side": 1
       }
