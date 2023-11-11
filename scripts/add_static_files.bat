@@ -29,16 +29,16 @@ ECHO STATIC FILE COPY STARTED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% > %log
 ECHO: >> %log%
 :: Copy dynamic files
 for /F %%f in (%input_path%%input_file_name%) do (
-    ECHO Adding file: %input_path%%%f >> %log%
-    ECHO Adding file: %input_path%%%f
+    ECHO Adding file:%%f >> %log%
+    ECHO Adding file:%%f
     COPY %input_path%%%f %output_path%%%f
 )
 ECHO:
 ECHO --------------------------------------------------------
 
 :: Close log
-ECHO: >> %log%
-ECHO STATIC FILE COPY FINISHED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% >> %log%
+ECHO: >> "%log%"
+ECHO STATIC FILE COPY FINISHED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% >> "%log%"
 ECHO Copy complete.
 
 PAUSE
