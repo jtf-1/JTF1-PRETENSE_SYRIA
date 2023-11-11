@@ -26,8 +26,8 @@ SET kneeboardpath=%projectroot%KNEEBOARD\IMAGES\
 ECHO Kneeboard path:        %kneeboardpath%
 
 :: Initialise build file & log
-ECHO MIZ BUILD STARTED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% > %log%
-ECHO: >> %log%
+ECHO MISSION FILE BUILD STARTED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% > %log%
+ECHO. >> %log%
 
 CD %projectroot%
 DIR  %projectroot%*.miz 
@@ -38,29 +38,28 @@ copy %staticscriptpath%*.* %projectroot%Temp\l10n\DEFAULT
 mkdir %projectroot%TEMP\KNEEBOARD\IMAGES
 copy %kneeboardpath%*.* %projectroot%Temp\KNEEBOARD\IMAGES
 
+cd %projectroot%Temp
 
-
-:: Add build content to DEV MIZ
-For %%I IN (%projectroot%DEV_*.miz) do (
+:: Add build content to MIZ
+For %%I IN (%projectroot%DEV_*.miz %projectroot%TEST_*.miz) do (
   ECHO %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME%      Building MIZ file:    %%I >> %log%
   echo Mission: %%I
-  echo:
-  echo:
+  echo.
+  echo.
   echo +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   echo ++                     Build File                        ++
   echo +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  cd %projectroot%Temp
   7z.exe d "%%I" KNEEBOARD/
-  7z.exe u "%%I" *
+  7z.exe a "%%I" *
 )
   
 cd %projectroot%
 rmdir /S /Q Temp
 
 :: Close log
-ECHO: >> %log%
-ECHO MIZ BUILD FINISHED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% >> %log%
-ECHO MIZ build complete.
+ECHO. >> %log%
+ECHO MISSION FILE BUILD FINISHED: %DATE:~6,4%-%DATE:~3,2%-%DATE:~0,2%T%TIME% >> %log%
+ECHO Mission build complete.
 
 PAUSE
 EXIT /B %ERRORLEVEL%
