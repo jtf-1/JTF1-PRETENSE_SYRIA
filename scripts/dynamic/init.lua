@@ -5080,8 +5080,6 @@ zones.akrotiri:defineUpgrades({
     }
 })
 
------------------[[ END OF Akrotiri ]]-----------------
-
 
 
 	cm = ConnectionManager:new()
