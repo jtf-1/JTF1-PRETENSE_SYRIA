@@ -27,9 +27,9 @@ ECHO:
 :: MOOSE
 MKLINK %staticscriptpath%Moose_.lua "d:\GitHub\MOOSE_INCLUDE\Moose_Include_Static\Moose_.lua"
 :: MIST
-REM MKLINK %staticscriptpath%mist.lua "d:\GitHub\MissionScriptingTools\mist.lua"
+MKLINK %staticscriptpath%mist.lua "d:\GitHub\MissionScriptingTools\mist.lua"
 :: SKYNET
-REM MKLINK %staticscriptpath%skynet-iads-compiled.lua "d:\GitHub\Skynet-IADS\demo-missions\skynet-iads-compiled.lua"
+MKLINK %staticscriptpath%skynet-iads-compiled.lua "d:\GitHub\Skynet-IADS\demo-missions\skynet-iads-compiled.lua"
 
 ECHO:
 ECHO --------------------------------------------------------
